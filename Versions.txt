@@ -1,14 +1,14 @@
 MARIO............ver. 3.01	Done 
-LUIGI............ver. P+ v3.1.2 
+LUIGI............ver. P+ v3.1.2 Done
 YOSHI............ver. 3.02 
 DONKEY KONG......ver. 3.02	Done
 LINK.............ver. 3.02 	Done
-SAMUS............ver. P+ 3.1.2
+SAMUS............ver. P+ 3.1.2	Done
 FOX..............ver. 2.5b 
-KIRBY............ver. P+ 2.5.2 
+KIRBY............ver. P+ 2.5.2	Done
 PIKACHU..........ver. 3.02 
 CAPTAIN FALCON...ver. 3.02 
-JIGGLYPUFF.......ver. P+ 3.1.2
+JIGGLYPUFF.......ver. P+ 3.1.2	Done
 NESS.............ver. 2.6 
 PEACH............ver. 3.02 
 BOWSER...........ver. 2.6b 
@@ -27,7 +27,7 @@ TOON LINK........ver. 3.02
 ZERO SUIT SAMUS..ver. 3.02 
 WOLF.............ver. 2.5b 
 METAKNIGHT.......ver. 3.02 
-KING DEDEDE......ver. P+ 3.1.2
+KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5
 IVYSAUR..........ver. 2.6 
 CHARIZARD........ver. 2.5b 
