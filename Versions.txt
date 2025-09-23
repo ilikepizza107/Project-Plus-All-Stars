@@ -23,7 +23,7 @@ MARTH............ver. 3.02
 ROY..............ver. 3.02 
 WARIO............ver. 2.5 
 DIDDY KONG.......ver. 3.02 
-TOON LINK........ver. 3.02 
+TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 
 WOLF.............ver. 2.5b 
 METAKNIGHT.......ver. 3.02 
