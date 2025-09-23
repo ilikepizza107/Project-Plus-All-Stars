@@ -24,7 +24,7 @@ ROY..............ver. 3.02
 WARIO............ver. 2.5 
 DIDDY KONG.......ver. 3.02 
 TOON LINK........ver. 3.02 	Done
-ZERO SUIT SAMUS..ver. 3.02 
+ZERO SUIT SAMUS..ver. 3.02 	Done
 WOLF.............ver. 2.5b 
 METAKNIGHT.......ver. 3.02 	Done
 KING DEDEDE......ver. P+ 3.1.2	Done
