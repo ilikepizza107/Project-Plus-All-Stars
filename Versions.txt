@@ -37,6 +37,6 @@ R.O.B............ver. 2.6
 IKE..............ver. 2.1 
 OLIMAR...........ver. P+ 1.0
 PIT..............ver. 3.02 
-SNAKE............ver. 2.1 
+SNAKE............ver. 2.1 	Done
 SONIC............ver. 2.1 
 KNUCKLES.........ver. P+ 2.0	Done
