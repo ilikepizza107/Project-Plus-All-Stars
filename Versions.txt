@@ -28,7 +28,7 @@ ZERO SUIT SAMUS..ver. 3.02
 WOLF.............ver. 2.5b 
 METAKNIGHT.......ver. 3.02 
 KING DEDEDE......ver. P+ 3.1.2	Done
-SQUIRTLE.........ver. P+ 2.1.5
+SQUIRTLE.........ver. P+ 2.1.5	Done
 IVYSAUR..........ver. 2.6 
 CHARIZARD........ver. 2.5b 
 LUCARIO..........ver. 2.1 
@@ -39,4 +39,4 @@ OLIMAR...........ver. P+ 1.0
 PIT..............ver. 3.02 
 SNAKE............ver. 2.1 
 SONIC............ver. 2.1 
-KNUCKLES.........ver. P+ 2.0
+KNUCKLES.........ver. P+ 2.0	Done
