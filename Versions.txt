@@ -15,7 +15,7 @@ BOWSER...........ver. 2.6b
 ZELDA............ver. 1.0 
 SHEIK............ver. 3.02 
 GANONDORF........ver. P+ 2.2	Done
-FALCO............ver. 2.1 
+FALCO............ver. 2.1 	Done
 MEWTWO...........ver. 3.02 
 ICE CLIMBERS.....ver. 3.6 
 MR. GAME & WATCH.ver. 2.6 	Done
