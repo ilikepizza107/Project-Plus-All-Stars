@@ -34,7 +34,7 @@ CHARIZARD........ver. 2.5b
 LUCARIO..........ver. 2.1 
 LUCAS............ver. 2.6 
 R.O.B............ver. 2.6 
-IKE..............ver. 2.1 
+IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.0
 PIT..............ver. 3.02 
 SNAKE............ver. 2.1 	Done
