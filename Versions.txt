@@ -25,11 +25,11 @@ WARIO............ver. 2.5
 DIDDY KONG.......ver. 3.02 
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
-WOLF.............ver. 2.5b 
+WOLF.............ver. 2.5b	Done 
 METAKNIGHT.......ver. 3.02 	Done
 KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5	Done
-IVYSAUR..........ver. 2.6 	Done
+IVYSAUR..........ver. 2.6
 CHARIZARD........ver. 2.5b 	Done
 LUCARIO..........ver. 2.1 
 LUCAS............ver. 2.6 	Done
