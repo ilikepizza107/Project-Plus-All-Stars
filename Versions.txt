@@ -1,0 +1,42 @@
+MARIO............ver. 3.01	Done 
+LUIGI............ver. P+ v3.1.2 
+YOSHI............ver. 3.02 
+DONKEY KONG......ver. 3.02	Done
+LINK.............ver. 3.02 	Done
+SAMUS............ver. P+ 3.1.2
+FOX..............ver. 2.5b 
+KIRBY............ver. P+ 2.5.2 
+PIKACHU..........ver. 3.02 
+CAPTAIN FALCON...ver. 3.02 
+JIGGLYPUFF.......ver. P+ 3.1.2
+NESS.............ver. 2.6 
+PEACH............ver. 3.02 
+BOWSER...........ver. 2.6b 
+ZELDA............ver. 1.0 
+SHEIK............ver. 3.02 
+GANONDORF........ver. P+ 2.2
+FALCO............ver. 2.1 
+MEWTWO...........ver. 3.02 
+ICE CLIMBERS.....ver. 3.6 
+MR. GAME & WATCH.ver. 2.6 
+MARTH............ver. 3.02 
+ROY..............ver. 3.02 
+WARIO............ver. 2.5 
+DIDDY KONG.......ver. 3.02 
+TOON LINK........ver. 3.02 
+ZERO SUIT SAMUS..ver. 3.02 
+WOLF.............ver. 2.5b 
+METAKNIGHT.......ver. 3.02 
+KING DEDEDE......ver. P+ 3.1.2
+SQUIRTLE.........ver. P+ 2.1.5
+IVYSAUR..........ver. 2.6 
+CHARIZARD........ver. 2.5b 
+LUCARIO..........ver. 2.1 
+LUCAS............ver. 2.6 
+R.O.B............ver. 2.6 
+IKE..............ver. 2.1 
+OLIMAR...........ver. P+ 1.0
+PIT..............ver. 3.02 
+SNAKE............ver. 2.1 
+SONIC............ver. 2.1 
+KNUCKLES.........ver. P+ 2.0
