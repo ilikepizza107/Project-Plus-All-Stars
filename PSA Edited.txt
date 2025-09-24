@@ -16,16 +16,17 @@ In vP+, Sub Routine 0x11878 is listed as 0x6500 in this build's PSA;  Sub Routin
 PSA Edited for ItemEX Compatability (Toon Link)
 - Misc Tab, Misc Section, "Unknown24" Section
 
-PSA Edited for Slot Slot Specific Robo Beams and Per-Costume Etc Files (ROB)
-- Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX; 
-- Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1E6, GFX; 
-- Action 0x113, Entry (No Event Cleanup, but technically changed)
-In vP+, Sub Routine 0xD058 is listed as 0x12358 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8
+PSA Edited for Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-Costume Etc Files (ROB)
+- Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX
+- Sub Action 0x0, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
+- Action 0x113, Entry (No Event: cleanup, but technically changed)
+- Override 0xBD, Entry
+- ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
+In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
+
 
 PSA Edited for Fixed Zelda Camera Stuff
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
-
-
 
 ##############
 Module Credits

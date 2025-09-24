@@ -33,7 +33,7 @@ IVYSAUR..........ver. 2.6	Done - GFX missing
 CHARIZARD........ver. 2.5b 	Done - GFX missing
 LUCARIO..........ver. 2.1 	Done
 LUCAS............ver. 2.6 	Done
-R.O.B............ver. 2.6 	Done - Costume specific side special + laser beam missing
+R.O.B............ver. 2.6 	Done - custom laser beam missing
 IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.0
 PIT..............ver. 3.02 
