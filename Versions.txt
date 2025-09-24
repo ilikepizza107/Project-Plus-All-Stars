@@ -7,7 +7,7 @@ SAMUS............ver. P+ 3.1.2	Done
 FOX..............ver. 2.5b 
 KIRBY............ver. P+ 2.5.2	Done
 PIKACHU..........ver. 3.02 
-CAPTAIN FALCON...ver. 3.02 
+CAPTAIN FALCON...ver. 3.02 	Done
 JIGGLYPUFF.......ver. P+ 3.1.2	Done
 NESS.............ver. 2.6	Module Crash
 PEACH............ver. P+ 3.1.2	Done	
