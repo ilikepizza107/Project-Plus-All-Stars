@@ -9,9 +9,9 @@ KIRBY............ver. P+ 2.5.2	Done
 PIKACHU..........ver. 3.02 	
 CAPTAIN FALCON...ver. 3.02 	Done
 JIGGLYPUFF.......ver. P+ 3.1.2	Done
-NESS.............ver. 2.6	Module Crash
+NESS.............ver. 2.6	Done
 PEACH............ver. P+ 3.1.2	Done	
-BOWSER...........ver. 2.6b 
+BOWSER...........ver. P+ 1.0
 ZELDA............ver. 1.0 	Done
 SHEIK............ver. 3.02 	Done
 GANONDORF........ver. P+ 2.2	Done
