@@ -1,0 +1,36 @@
+############
+PSA Credits
+############
+
+All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+
+PSA Edited for ItemEX Compatability (Link)
+- Misc Tab, Misc Section, "Unknown24" Section
+
+PSA Edited for Yoshi Egg GFX
+- Action 0x114, Entry
+- Sub Action 0x43, GFX; Sub Action 0x6C, GFX; Sub Action 0x6D, GFX; Sub Action 0x6E, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D9, GFX;
+- Article 1, Sub Action 0x1, GFX
+In vP+, Sub Routine 0x11878 is listed as 0x6500 in this build's PSA;  Sub Routine 0x2570C is listed as 0x2EB0, Sub Routine 0xA8E0 is listed as 0x73A0
+
+PSA Edited for ItemEX Compatability (Toon Link)
+- Misc Tab, Misc Section, "Unknown24" Section
+
+PSA Edited for Slot Slot Specific Robo Beams and Per-Costume Etc Files (ROB)
+- Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX; 
+- Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1E6, GFX; 
+- Action 0x113, Entry (No Event Cleanup, but technically changed)
+In vP+, Sub Routine 0xD058 is listed as 0x12358 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8
+
+PSA Edited for Fixed Zelda Camera Stuff
+- Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
+
+
+
+##############
+Module Credits
+##############
+
+Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, and Wario module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+
+Yoshi Module edits by KingJigglypuff

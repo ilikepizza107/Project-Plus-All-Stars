@@ -1,6 +1,6 @@
 MARIO............ver. 3.01	Done 
 LUIGI............ver. P+ v3.1.2 Done
-YOSHI............ver. 3.02 	Done - Egg GFX glitches
+YOSHI............ver. 3.02 	Done
 DONKEY KONG......ver. 3.02	Done
 LINK.............ver. 3.02 	Done
 SAMUS............ver. P+ 3.1.2	Done
@@ -26,14 +26,14 @@ DIDDY KONG.......ver. 3.02 	Done
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
 WOLF.............ver. 2.5b	Done
-METAKNIGHT.......ver. 3.02 	Done
+METAKNIGHT.......ver. 3.02 	Done - Costume specific sword glows need added
 KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5	Done
 IVYSAUR..........ver. 2.6	Done - GFX missing
 CHARIZARD........ver. 2.5b 	Done - GFX missing
 LUCARIO..........ver. 2.1 	Done
 LUCAS............ver. 2.6 	Done
-R.O.B............ver. 2.6 
+R.O.B............ver. 2.6 	Done - Costume specific side special + laser beam missing
 IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.0
 PIT..............ver. 3.02 
