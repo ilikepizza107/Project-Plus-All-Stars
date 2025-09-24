@@ -11,7 +11,7 @@ CAPTAIN FALCON...ver. 3.02 	Done
 JIGGLYPUFF.......ver. P+ 3.1.2	Done
 NESS.............ver. 2.6	Done
 PEACH............ver. P+ 3.1.2	Done	
-BOWSER...........ver. P+ 1.0
+BOWSER...........ver. P+ 1.05b	Done
 ZELDA............ver. 1.0 	Done
 SHEIK............ver. 3.02 	Done
 GANONDORF........ver. P+ 2.2	Done
@@ -21,7 +21,7 @@ ICE CLIMBERS.....ver. 3.6
 MR. GAME & WATCH.ver. 2.6 	Done
 MARTH............ver. 3.02 	Done
 ROY..............ver. 3.02
-WARIO............ver. 2.5 
+WARIO............ver. 2.5 	Done
 DIDDY KONG.......ver. 3.02 	Done
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
@@ -32,7 +32,7 @@ SQUIRTLE.........ver. P+ 2.1.5	Done
 IVYSAUR..........ver. 2.6	Done - GFX missing
 CHARIZARD........ver. 2.5b 	Done - GFX missing
 LUCARIO..........ver. 2.1 	Done
-LUCAS............ver. 2.6 	Done - Module Crash
+LUCAS............ver. 2.6 	Done
 R.O.B............ver. 2.6 
 IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.0
