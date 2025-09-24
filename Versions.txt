@@ -9,11 +9,11 @@ KIRBY............ver. P+ 2.5.2	Done
 PIKACHU..........ver. 3.02 
 CAPTAIN FALCON...ver. 3.02 
 JIGGLYPUFF.......ver. P+ 3.1.2	Done
-NESS.............ver. 2.6
+NESS.............ver. 2.6	Module Crash
 PEACH............ver. P+ 3.1.2	Done	
 BOWSER...........ver. 2.6b 
-ZELDA............ver. 1.0 
-SHEIK............ver. 3.02 
+ZELDA............ver. 1.0 	Done
+SHEIK............ver. 3.02 	Done
 GANONDORF........ver. P+ 2.2	Done
 FALCO............ver. 2.1 	Done
 MEWTWO...........ver. 3.02 
@@ -25,14 +25,14 @@ WARIO............ver. 2.5
 DIDDY KONG.......ver. 3.02 
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
-WOLF.............ver. 2.5b	Done 
+WOLF.............ver. 2.5b	Done - Module Crash 
 METAKNIGHT.......ver. 3.02 	Done
 KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5	Done
-IVYSAUR..........ver. 2.6
-CHARIZARD........ver. 2.5b 	Done
+IVYSAUR..........ver. 2.6	Done - GFX missing
+CHARIZARD........ver. 2.5b 	Done - GFX missing
 LUCARIO..........ver. 2.1 	Done
-LUCAS............ver. 2.6 	Done
+LUCAS............ver. 2.6 	Done - Module Crash
 R.O.B............ver. 2.6 
 IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.0
