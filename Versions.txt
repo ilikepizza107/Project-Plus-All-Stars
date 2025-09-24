@@ -1,6 +1,6 @@
 MARIO............ver. 3.01	Done 
 LUIGI............ver. P+ v3.1.2 Done
-YOSHI............ver. 3.02 
+YOSHI............ver. 3.02 	Done - Egg GFX glitches
 DONKEY KONG......ver. 3.02	Done
 LINK.............ver. 3.02 	Done
 SAMUS............ver. P+ 3.1.2	Done
