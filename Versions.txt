@@ -22,7 +22,7 @@ MR. GAME & WATCH.ver. 2.6 	Done
 MARTH............ver. 3.02 	Done
 ROY..............ver. 3.02
 WARIO............ver. 2.5 
-DIDDY KONG.......ver. 3.02 
+DIDDY KONG.......ver. 3.02 	Done
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
 WOLF.............ver. 2.5b	Done - Module Crash 
