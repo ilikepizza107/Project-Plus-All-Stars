@@ -17,7 +17,7 @@ SHEIK............ver. 3.02 	Done
 GANONDORF........ver. P+ 2.2	Done
 FALCO............ver. 2.1 	Done
 MEWTWO...........ver. 3.02 	Done
-ICE CLIMBERS.....ver. 3.6 
+ICE CLIMBERS.....ver. 3.6 	Done? Needs checked
 MR. GAME & WATCH.ver. 2.6 	Done
 MARTH............ver. 3.02 	Done
 ROY..............ver. 3.02	Done
