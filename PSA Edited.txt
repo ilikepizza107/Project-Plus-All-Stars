@@ -9,7 +9,7 @@ PSA Edited for ItemEX Compatability (Link)
 
 PSA Edited for Yoshi Egg GFX
 - Action 0x114, Entry
-- Sub Action 0x43, GFX; Sub Action 0x6C, GFX; Sub Action 0x6D, GFX; Sub Action 0x6E, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D9, GFX;
+- Sub Action 0x43, GFX; Sub Action 0x6C, GFX; Sub Action 0x6D, GFX; Sub Action 0x6E, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D9, GFX
 - Article 1, Sub Action 0x1, GFX
 In vP+, Sub Routine 0x11878 is listed as 0x6500 in this build's PSA;  Sub Routine 0x2570C is listed as 0x2EB0, Sub Routine 0xA8E0 is listed as 0x73A0
 
@@ -27,14 +27,14 @@ In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine
 PSA Edited for Fixed Zelda Camera Stuff
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
 
-PSA Edited for Pit sowrd trail effects and arrows
+PSA Edited for Pit sword trail effects and arrows
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX;
-- Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x3B, GFX; Sub Action 0x3C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4C, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x62, Other; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x73, GFX; Sub Action 0x75, GFX; Sub Action 0xB0, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 1C0, GFX; Sub Action 1CE, Main;
+- Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x3B, GFX; Sub Action 0x3C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4C, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x62, Other; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x73, GFX; Sub Action 0x75, GFX; Sub Action 0xB0, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 1C0, GFX; Sub Action 1CE, Main
 - Sub Routine 0x7AC0 added
 In vP+, Sub Routine 0x13EA0 is listed as 0x6F98, Sub Routine 0x126E0 is listed as 0x12A30, Sub Routine 0xA010 is listed as 0xCCE8, Sub Routine 0x132F0 is listed as 0x7358, and Sub Routine 0x14FF8 is listed as 0x8500
 
 PSA Edited for Pikachu Iron Tail Up Smash + Tail Switch
-- Sub Action 0x0, Main; Sub Action 0x5D, Main; Sub Action 0x5D, GFX; Sub Action 0x5D, Other; Sub Action 0x5E, Other; Sub Action 0x1C2, GFX;
+- Sub Action 0x0, Main; Sub Action 0x5D, Main; Sub Action 0x5D, GFX; Sub Action 0x5D, Other; Sub Action 0x5E, Other; Sub Action 0x1C2, GFX
 - ModelVisibility, BoneSwitch1
 In vP+, Sub Routine 0xFCF0 is listed as 0x6DB0, Sub Routine 0xFD20 is listed as 0xC340, Sub Routine 0xFE30 is listed as 0xF2F0
 
@@ -45,3 +45,47 @@ Module Credits
 Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, and ROB module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
+
+###########
+SFX Credits
+###########
+Porting tools made by TheGag96/Codes
+
+Roy SFX porting list:
+0x2618 0x40D5
+0x2619 0x40B6
+0x261A 0x40A5
+0x261B 0x40A6
+0x261C 0x40A7
+0x261D 0x40A8
+0x261E 0x40A9
+0x261F 0x40AA
+0x2620 0x40FE
+0x2621 0x40AB
+0x2622 0x40D2
+0x2623 0x40D1
+0x2624 0x40AC
+0x2625 0x40CE
+0x2628 0x40AD
+0x2629 0x40FF
+0x262A 0x413F
+0x262B 0x4140
+0x262C 0x40AE
+0x262D 0x40BA
+0x262E 0x40BB
+0x262F 0x40B7
+0x2630 0x40BC
+0x2631 0x40C1
+0x2632 0x40C2
+0x2633 0x40C3
+0x2634 0x40C5
+0x2635 0x40C6
+0x2636 0x40B3
+0x2637 0x40B4
+0x2639 0x40BD
+0x263A 0x40BD
+0x263B 0x40D3
+0x263C 0x40C8
+0x263D 0x40D6
+0x263E 0x40D8
+0x263F 0x40D7

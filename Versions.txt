@@ -20,7 +20,7 @@ MEWTWO...........ver. 3.02
 ICE CLIMBERS.....ver. 3.6 
 MR. GAME & WATCH.ver. 2.6 	Done
 MARTH............ver. 3.02 	Done
-ROY..............ver. 3.02
+ROY..............ver. 3.02	Done
 WARIO............ver. 2.5 	Done
 DIDDY KONG.......ver. 3.02 	Done
 TOON LINK........ver. 3.02 	Done
