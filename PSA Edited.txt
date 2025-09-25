@@ -2,12 +2,13 @@
 PSA Credits
 ############
 
-All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing general editing guidance
 
 PSA Edited for ItemEX Compatability (Link)
 - Misc Tab, Misc Section, "Unknown24" Section
 
 PSA Edited for Yoshi Egg GFX
+- Replaced ef_yoshi
 - Action 0x114, Entry
 - Sub Action 0x43, GFX; Sub Action 0x6C, GFX; Sub Action 0x6D, GFX; Sub Action 0x6E, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D9, GFX
 - Article 1, Sub Action 0x1, GFX
@@ -17,10 +18,12 @@ PSA Edited for ItemEX Compatability (Toon Link)
 - Misc Tab, Misc Section, "Unknown24" Section
 
 PSA Edited for Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-Costume Etc Files (ROB)
+- Replaced ef_robot, added ef_custom23
 - Action 0x113, Entry (No Event: cleanup, but technically changed)
 - Sub Action 0x0, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX
 - Override 0xBD, Entry
+- Added statusAnimCmd_Dead External Sub Routine
 - ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
 In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
 
@@ -28,6 +31,7 @@ PSA Edited for Fixed Zelda Camera Stuff
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
 
 PSA Edited for Pit sword trail effects and arrows
+- Replaced ef_pit, added ef_custom17
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX;
 - Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x3B, GFX; Sub Action 0x3C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4C, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x62, Other; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x73, GFX; Sub Action 0x75, GFX; Sub Action 0xB0, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 1C0, GFX; Sub Action 1CE, Main
 - Sub Routine 0x7AC0 added
@@ -37,6 +41,15 @@ PSA Edited for Pikachu Iron Tail Up Smash + Tail Switch
 - Sub Action 0x0, Main; Sub Action 0x5D, Main; Sub Action 0x5D, GFX; Sub Action 0x5D, Other; Sub Action 0x5E, Other; Sub Action 0x1C2, GFX
 - ModelVisibility, BoneSwitch1
 In vP+, Sub Routine 0xFCF0 is listed as 0x6DB0, Sub Routine 0xFD20 is listed as 0xC340, Sub Routine 0xFE30 is listed as 0xF2F0
+
+PSA Edited for Mewtwo General GFX, Shadow Ball, Tail Trails
+- Added ef_custom96
+- Action 0x117, Entry; Action 0x118, Entry; Action 0x11A, Entry; Action 0x11E, Entry
+- Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x44, GFX; Sub Action 0x45, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x73, GFX; Sub Action 0x98, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C8, GFX; Sub Action 1D2, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D9, GFX; Sub Action 1E1, GFX; Sub Action 1E2, GFX;
+In vP+, Sub Routine 0xF3E8 is listed as 0x7FF0
+
+PSA Edited for Olimar Pikmin Sword Trails and Color Specific Jetpack
+- Replaced Model Data [7] in ef_pikmin, added ef_custom19
 
 ##############
 Module Credits
@@ -89,3 +102,45 @@ Roy SFX porting list:
 0x263D 0x40D6
 0x263E 0x40D8
 0x263F 0x40D7
+
+Mewtwo SFX porting list:
+0x25D2 0x4031
+0x25D3 0x402F
+0x25D4 0x4030
+0x25D5 0x4033
+0x25D6 0x4034
+0x25D7 0x4011
+0x25D8 0x4022
+0x25D9 0x4020
+0x25DA 0x4021
+0x25DB 0x402C
+0x25DC 0x402D
+0x25DD 0x4015
+0x25DE 0x4012
+0x25DF 0x4035
+0x25E0 0x4090
+0x25E1 0x409A
+0x25E2 0x408E
+0x25E3 0x4062
+0x25E4 0x4016
+0x25E5 0x4017
+0x25E6 0x4018
+0x25E7 0x4019
+0x25E8 0x401A
+0x25E9 0x401B
+0x25EA 0x4000
+0x25EB 0x401D
+0x25EC 0x4023
+0x25ED 0x4027
+0x25EE 0x403B
+0x25EF 0x4001
+0x25F0 0x4002
+0x25F1 0x401E
+0x25F2 0x409D
+0x25F3 0x403A
+0x25F4 0x403A
+0x25F5 0x402E
+0x25F6 0x402E
+0x25F7 0x402E
+0x25F8 0x402E
+0x25F9 0x402E
