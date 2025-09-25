@@ -35,7 +35,7 @@ LUCARIO..........ver. 2.1 	Done
 LUCAS............ver. 2.6 	Done
 R.O.B............ver. 2.6 	Done
 IKE..............ver. 2.1 	Done
-OLIMAR...........ver. P+ 1.0
+OLIMAR...........ver. P+ 1.05b	Done
 PIT..............ver. 3.02 	Done
 SNAKE............ver. 2.1 	Done
 SONIC............ver. 2.1 
