@@ -16,7 +16,7 @@ ZELDA............ver. 1.0 	Done
 SHEIK............ver. 3.02 	Done
 GANONDORF........ver. P+ 2.2	Done
 FALCO............ver. 2.1 	Done
-MEWTWO...........ver. 3.02 
+MEWTWO...........ver. 3.02 	Done
 ICE CLIMBERS.....ver. 3.6 
 MR. GAME & WATCH.ver. 2.6 	Done
 MARTH............ver. 3.02 	Done
