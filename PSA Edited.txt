@@ -31,7 +31,12 @@ PSA Edited for Pit sowrd trail effects and arrows
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX;
 - Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x3B, GFX; Sub Action 0x3C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4C, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x62, Other; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x73, GFX; Sub Action 0x75, GFX; Sub Action 0xB0, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 1C0, GFX; Sub Action 1CE, Main;
 - Sub Routine 0x7AC0 added
-In vP+, Sub Routine 0x13EA0 is listed as 0x6F98, Sub Routine 0x126E0 is listed as 0x12A30, Sub Routine 0xA010 is listed as 0xCCE8, Sub Routine 0x132F0 is listed as 0x7358, Sub Routine 0x14FF8 is listed as 0x8500
+In vP+, Sub Routine 0x13EA0 is listed as 0x6F98, Sub Routine 0x126E0 is listed as 0x12A30, Sub Routine 0xA010 is listed as 0xCCE8, Sub Routine 0x132F0 is listed as 0x7358, and Sub Routine 0x14FF8 is listed as 0x8500
+
+PSA Edited for Pikachu Iron Tail Up Smash + Tail Switch
+- Sub Action 0x0, Main; Sub Action 0x5D, Main; Sub Action 0x5D, GFX; Sub Action 0x5D, Other; Sub Action 0x5E, Other; Sub Action 0x1C2, GFX;
+- ModelVisibility, BoneSwitch1
+In vP+, Sub Routine 0xFCF0 is listed as 0x6DB0, Sub Routine 0xFD20 is listed as 0xC340, Sub Routine 0xFE30 is listed as 0xF2F0
 
 ##############
 Module Credits
