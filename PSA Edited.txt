@@ -24,7 +24,6 @@ PSA Edited for Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-C
 - ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
 In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
 
-
 PSA Edited for Fixed Zelda Camera Stuff
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
 
@@ -32,6 +31,6 @@ PSA Edited for Fixed Zelda Camera Stuff
 Module Credits
 ##############
 
-Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, and Wario module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, and ROB module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
