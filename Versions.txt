@@ -26,7 +26,7 @@ DIDDY KONG.......ver. 3.02 	Done
 TOON LINK........ver. 3.02 	Done
 ZERO SUIT SAMUS..ver. 3.02 	Done
 WOLF.............ver. 2.5b	Done
-METAKNIGHT.......ver. 3.02 	Done - Costume specific sword glows need added
+METAKNIGHT.......ver. 3.02 	Done
 KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5	Done
 IVYSAUR..........ver. 2.6	Done - GFX missing

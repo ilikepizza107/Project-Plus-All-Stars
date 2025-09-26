@@ -51,6 +51,11 @@ In vP+, Sub Routine 0xF3E8 is listed as 0x7FF0
 PSA Edited for Olimar Pikmin Sword Trails and Color Specific Jetpack
 - Replaced Model Data [7] in ef_pikmin, added ef_custom19
 
+PSA Edited for Meta Knight Costume Specific Sword Glow, GFX
+- Replaced ef_metaknight
+- Sub Action 0x4C, GFX; Sub Action 0x50, GFX; Sub Action 0x51, GFX; Sub Action 0x52, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, Main (No Event cleanup but still a change); Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 72, GFX; Sub Action B0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1D5, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DE, GFX; Sub Action 1E2, GFX; Sub Action 0x1E4, GFX; 
+In vP+, Sub Routine 0xF6A8 is listed as 0xA070
+
 ##############
 Module Credits
 ##############
