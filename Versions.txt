@@ -29,7 +29,7 @@ WOLF.............ver. 2.5b	Done
 METAKNIGHT.......ver. 3.02 	Done
 KING DEDEDE......ver. P+ 3.1.2	Done
 SQUIRTLE.........ver. P+ 2.1.5	Done
-IVYSAUR..........ver. 2.6	Done - GFX missing
+IVYSAUR..........ver. 2.6	Done - aerial up special vine issue
 CHARIZARD........ver. 2.5b 	Done - GFX missing
 LUCARIO..........ver. 2.1 	Done
 LUCAS............ver. 2.6 	Done
