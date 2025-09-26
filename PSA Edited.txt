@@ -64,6 +64,15 @@ PSA Edited for Ivysaur Specific GFX, Final Smash
 - ModelVisibility, Shadow, BoneSwitch1
 In vP+, Sub Routine 0x13B20 is listed as 0x6818, Sub Routine 0x25D84 is listed as 0xF9B8, Sub Routine 0x2262C is listed as 0x103A0, Sub Routine 0x146F8 is listed as 0x10C10, Sub Routine 0x17690 is listed as 0x112D8, Sub Routine 0x226EC is listed as 0x120A8 (usually seen after Sub Routine 0x12348 in vP+'s file), Sub Routine 0x14590 is listed as 0x140E8, Sub Routine 0x14610 is listed as 0x16C10, Sub Routine 0x1FE9C is listed as 0x17158, Sub Routine 0x203CC is listed as 0x20724, Sub Routine 0x17EA8 is listed as 0xB258, Sub Routine 0x11988 is listed as 0x25A2C, Sub Routine 0x11B70 is listed as 0x25A94, Sub Routine 0x27EB4 is listed as 0x25AFC
 
+PSA Edited for Charizard Specific GFX, Final Smash
+- Added ef_pokelizardon
+- Action 0x116, Entry; 
+- Sub Action 0x0, Main; Sub Action 0x19, Main; Sub Action 0x19, GFX; Sub Action 0x19, SFX; Sub Action 0x19, Other; Sub Action 0x3C, Main; Sub Action 0x3C, GFX; Sub Action 0x58, Main; Sub Action 0x58, GFX; Sub Action 0x62, Main; Sub Action 0x62, GFX; Sub Action 0x63, Main; Sub Action 0x63, GFX; Sub Action 0x64, Main; 0x64, GFX; Sub Action 0x64, SFX; Sub Action 0x74, Main; Sub Action 0x74, GFX; Sub Action 0x75, Main; Sub Action 0x75, GFX; Sub Action 0x1C2, Main; Sub Action 0x1C2, GFX; Sub Action 0x1C3, Main; Sub Action 0x1C3, GFX; Sub Action 0x1C4, Main; Sub Action 0x1C4, GFX; Sub Action 0x1C6, Main; Sub Action 0x1C6, GFX; Sub Action 0x1C8, Main; Sub Action 0x1C8, GFX; Sub Action 0x1CA, Main; Sub Action 0x1CF, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D5, Main; Sub Action 0x1D5, GFX; Sub Action 0x1D7, Main; Sub Action 0x1D7, GFX; Sub Action 0x1D8, Main; Sub Action 0x1D8, GFX;  
+- Article 0, Sub Action 0x0, Main; Article 0, Sub Action 0x0, GFX;
+- Override 0xBD, Entry; Override 0x115, Exit; Override 0x120, Exit;
+- Added statusAnimCmd_Dead External Sub Routine
+In vP+, Sub Routine 0x6A70 is listed as 0xC2C8, Sub Routine 0xF850 is listed as 0xEE58, Sub Routine 0x23E68 is listed as 0x119E8
+
 ##############
 Module Credits
 ##############
