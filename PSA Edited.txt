@@ -87,7 +87,7 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Actoin 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX; 
-In vP+, Sub Routine 0x9E38 is listed as 0x8E48
+In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
 ##############
 Module Credits
