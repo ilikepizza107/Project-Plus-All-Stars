@@ -1,4 +1,4 @@
-MARIO............ver. 3.01	Done - Builder Mario has pills instead of fireballs
+MARIO............ver. 3.01	Done
 LUIGI............ver. P+ v3.1.2 Done
 YOSHI............ver. 3.02 	Done
 DONKEY KONG......ver. 3.02	Done

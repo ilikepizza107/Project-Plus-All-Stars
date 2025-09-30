@@ -9,10 +9,15 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
 
+PSA Edited for Mario Pills, Side Special (module edits needed as well)
+- Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
+- Sub Routine 0x26054, Sub Routine 0x6AD0 (previously 0x26A64), Sub Routine 0x79E0 (previously 0x25D6C)
+- Removed Texture Data [0] [Group 2] from FitMarioMotionEtc.pac
+
 PSA Edited for Link Bomb ItemEX Compatability
 - Misc Tab, Misc Section, "Unknown24" Section
 
-PSA Edited for Yoshi Egg GFX
+PSA Edited for Yoshi Egg GFX (module edits needed as well)
 - Replaced ef_yoshi
 - Action 0x114, Entry
 - Sub Action 0x43, GFX; Sub Action 0x6C, GFX; Sub Action 0x6D, GFX; Sub Action 0x6E, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D9, GFX
@@ -84,7 +89,7 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 Module Credits
 ##############
 
-Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, and ROB module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, and ROB module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
 
