@@ -38,7 +38,7 @@ IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.05b	Done
 PIT..............ver. 3.02 	Done
 SNAKE............ver. 2.1 	Done
-SONIC............ver. 2.1 
+SONIC............ver. 2.1 	Done - GFX weirdness overall, neutral b oddities
 KNUCKLES.........ver. P+ 2.0	Done
 
 Throw Release - need 1.05b Bowser, Icies 3.6 , Knux 2.0, Oli 1.05b data

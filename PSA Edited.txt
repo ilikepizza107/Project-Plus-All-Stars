@@ -85,6 +85,10 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 - Article Flamethrower Parameter, 0x8; Article Flamethrower Parameter, 0x10; Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX
 - MiscSection, Hurt Boxes, Data0; MiscSection, Hurt Boxes, Data3; MiscSection, Hurt Boxes, Data5; MiscSection, Ledge Grab, Ledge Grab 0; MiscSection, Ledge Grab, Ledge Grab 1; MiscSection, Ledge Grab, Ledge Grab 2 (Removed); MiscSection, Sound Lists, SoundData2; MiscSection, Sound Lists, SoundData4; MiscSection, Multi Jump, Unknown2; MiscSection, Multi Jump, Hops; SpecialActionFlags, Action 0x115; ExtraActionFlags, Action 0xD; ExtraActionFlags, Action 0x87; ExtraActionFlags, Action 0x88
 
+PSA Edited for Sonic Costume Specific Etc files, Floaties
+- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Actoin 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX; 
+In vP+, Sub Routine 0x9E38 is listed as 0x8E48
+
 ##############
 Module Credits
 ##############
