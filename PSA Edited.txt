@@ -7,6 +7,7 @@ All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing gene
 Additional PSA Credits: 
 - KingJigglypuff for edits in Actions 0x117, Entry; 0x118, Entry; 0x11A, Entry; 0x11E, Entry in FitMewtwo.pac
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
+- KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
 
 PSA Edited for ItemEX Compatability (Link)
 - Misc Tab, Misc Section, "Unknown24" Section
@@ -77,7 +78,7 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 - Sub Routine 0x1D810; Sub Routine 0x1E9A0, Sub Routine 0x11C78 (Added), Sub Routine 0x1FDC8 (Added)
 - Override 0x39, Entry; Override 0x88, Entry (Removed); Override 0x85, Entry (Removed); Override 0x3A, Entry
 - Attribute 0x00C, Attribute 0x010, Attribute 0x014, Attribute 0x02C, Attribute 0x034, Attribute 0x038, Attribute 0x044, Attribute 0x050, Attribute 0x054, Attribute 0x058, Attribute 0x064, Attribute 0x068, Attribute 0x074, Attribute 0x078, Attribute 0x07C, Attribute 0x080, Attribute 0x084, Attribute 0x094, Attribute 0x098, Attribute 0x0A8, Attribute 0x0B0, Attribute 0x0C4, Attribute 0x0C8, Attribute 0x140, Attribute 0x144, Attribute 0x14C, Attribute 0x150, Attribute 0x18C, Attribute 0x2DC
-- Article Flamethrower Parameter, 0x8; Article Flamethrower Parameter, 0x10; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX
+- Article Flamethrower Parameter, 0x8; Article Flamethrower Parameter, 0x10; Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX
 - MiscSection, Hurt Boxes, Data0; MiscSection, Hurt Boxes, Data3; MiscSection, Hurt Boxes, Data5; MiscSection, Ledge Grab, Ledge Grab 0; MiscSection, Ledge Grab, Ledge Grab 1; MiscSection, Ledge Grab, Ledge Grab 2 (Removed); MiscSection, Sound Lists, SoundData2; MiscSection, Sound Lists, SoundData4; MiscSection, Multi Jump, Unknown2; MiscSection, Multi Jump, Hops
 
 ##############
