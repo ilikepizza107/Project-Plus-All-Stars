@@ -1,4 +1,4 @@
-MARIO............ver. 3.01	Done 
+MARIO............ver. 3.01	Done - Builder Mario has pills instead of fireballs
 LUIGI............ver. P+ v3.1.2 Done
 YOSHI............ver. 3.02 	Done
 DONKEY KONG......ver. 3.02	Done
@@ -40,3 +40,5 @@ PIT..............ver. 3.02 	Done
 SNAKE............ver. 2.1 	Done
 SONIC............ver. 2.1 
 KNUCKLES.........ver. P+ 2.0	Done
+
+Throw Release - need 1.05b Bowser, Icies 3.6 , Knux 2.0, Oli 1.05b data

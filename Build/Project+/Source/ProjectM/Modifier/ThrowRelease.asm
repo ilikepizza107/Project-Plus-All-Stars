@@ -60,54 +60,54 @@ op b 0x8 @ $8077168C
 #Throw Release Offset Data
 ThrowReleaseTable:
 float[100] |		# 0x32 * 2
-	0.0, 		7.2672,	| # Mario
-	-0.5, 		13.0311,| # Donkey Kong
-	0.2257, 	8.5516,	| # Link
+	0.0, 		0.0,	| # Mario
+	0.0, 		0.0,	| # Donkey Kong
+	0.0, 		0.0,	| # Link
 	-0.4884,	11.3475,| # Samus
-	0.0,		7.0,	| # Yoshi
+	0.0,		0.0,	| # Yoshi
 	0.0,		5.0,	| # Kirby
 	0.0,		8.3,	| # Fox
-	0.0,		5.7997, | # Pikachu
+	0.0,		0.0, 	| # Pikachu
 	0.0,		7.2672, | # Luigi
-	-0.4884,	11.3475,| # Captain Falcon
-	0.0,		6.0042, | # Ness
+	0.0,		0.0,	| # Captain Falcon
+	0.0,		0.0, 	| # Ness
 	-0.6,		13.725, | # Bowser
 	0.0,		9.4,	| # Peach
-	0.0,		9.4,	| # Zelda
-	0.3466,		8.2405, | # Sheik
+	0.0,		0.0,	| # Zelda
+	0.0,		0.0, 	| # Sheik
 	0.0,		6.0042, | # Ice Climbers
 	NaN,		NaN,	| # (Empty Slot) "Nana"
-	0.4263,		9.8485, | # Marth
-	0.0,		5.1937, | # Mr. Game & Watch
-	0.0,		8.3,	| # Falco
+	0.0,		0.0, 	| # Marth
+	0.0,		0.0, 	| # Mr. Game & Watch
+	0.0,		0.0,	| # Falco
 	-0.4884,	12.3475,| # Ganondorf
-	0.0,		7.0,	| # Wario
-	0.0,		5.0,	| # Meta Knight
-	0.2257,		8.5516, | # Pit
-	0.3466,		8.2405, | # Zero Suit Samus
+	0.0,		0.0,	| # Wario
+	0.0,		0.0,	| # Meta Knight
+	0.0,		0.0, 	| # Pit
+	0.0,		0.0, 	| # Zero Suit Samus
 	0.0,		6.0042, | # Olimar
-	0.0,		6.0042, | # Lucas
-	0.0,		7.2672, | # Diddy Kong
+	0.0,		0.0, 	| # Lucas
+	0.0,		0.0, 	| # Diddy Kong
 	NaN,		NaN,	| # (Unusable Slot for Pokemon Trainer)
-	-0.6,		9.5311, | # Charizard
+	0.0,		0.0, 	| # Charizard
 	0.0,		5.0,	| # Squirtle
-	0.0,		5.7997, | # Ivysaur
+	0.0,		0.0, 	| # Ivysaur
 	-0.6,		13.725, | # Dedede
-	0.0,		8.3,	| # Lucario
-	0.4263,		9.8485, | # Ike
-	0.2257,		10.3076,| # R.O.B.
+	0.0,		0.0,	| # Lucario
+	0.0,		0.0, 	| # Ike
+	0.0,		0.0,	| # R.O.B.
 	0.0,		9.4,	| # "PraMai"????? Is this leftover Lyn data?
 	0.0,		5.0,	| # Jigglypuff
-	0.2257,		10.3076,| # Mewtwo
-	0.4263,		9.8485, | # Roy
+	0.0,		0.0,	| # Mewtwo
+	0.0,		0.0, 	| # Roy
 	NaN,		NaN,	| # (Empty Slot) "Dr_Mario"
-	0.0,		6.0042, | # Toon Link
+	0.0,		0.0, 	| # Toon Link
 	NaN,		NaN,	| # "ToonZelda"
 	0.2257,		8.5516, | # "ToonSheik"????? Is this leftover Isaac data?
-	0.0,		8.3,	| # Wolf
+	0.0,		0.0,	| # Wolf
 	0.0,		8.3,	| # Knuckles
-	-0.4884,	11.3475,| # Snake
-	0.0,		7.2672, | # Sonic
+	0.0,		0.0,	| # Snake
+	0.0,		0.0, 	| # Sonic
 	0.0,		0.0,	| # Giga Bowser
 	0.0,		7.0		  # Wario-Man
 	
