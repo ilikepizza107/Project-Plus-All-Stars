@@ -1,3 +1,5 @@
+Project Plus is a wonderful game, and working on this project has helped me see, even more than I already saw, that we truly stand on the shoulders of giants. Even though the game looks and plays better than ever before, none of that would be possible without all of the work put in by the original PMDT and LTE teams. I hope this little walk down memory lane is enjoyable for you, and thank you for playing!
+
 ############
 PSA Credits
 ############
@@ -25,10 +27,13 @@ PSA Edited for Yoshi Egg GFX (module edits needed as well)
 - Article 1, Sub Action 0x1, GFX
 In vP+, Sub Routine 0x11878 is listed as 0x6500 in this build's PSA;  Sub Routine 0x2570C is listed as 0x2EB0, Sub Routine 0xA8E0 is listed as 0x73A0
 
+PSA Edited for Captain Falcon Spike Flame Effect
+- Sub Action 0x66, Main
+
 PSA Edited for Toon Link Bomb ItemEX Compatability
 - Misc Tab, Misc Section, "Unknown24" Section
 
-PSA Edited for Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-Costume Etc Files (ROB)
+PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-Costume Etc Files
 - Replaced ef_robot, added ef_custom23
 - Action 0x113, Entry (No Event: cleanup, but technically changed)
 - Sub Action 0x0, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
@@ -38,10 +43,10 @@ PSA Edited for Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-C
 - ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
 In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
 
-PSA Edited for Fixed Zelda Camera Stuff
+PSA Edited for Zelda Fixed Camera Stuff
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
 
-PSA Edited for Pit sword trail effects and arrows
+PSA Edited for Pit Sword Trail Effects and Arrows
 - Replaced ef_pit, added ef_custom17
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX;
 - Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x3B, GFX; Sub Action 0x3C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4C, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x62, Other; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x73, GFX; Sub Action 0x75, GFX; Sub Action 0xB0, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 1C0, GFX; Sub Action 1CE, Main
@@ -59,7 +64,7 @@ PSA Edited for Mewtwo General GFX, Shadow Ball, Tail Trails
 - Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x44, GFX; Sub Action 0x45, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x73, GFX; Sub Action 0x98, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C8, GFX; Sub Action 1D2, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D9, GFX; Sub Action 1E1, GFX; Sub Action 1E2, GFX
 In vP+, Sub Routine 0xF3E8 is listed as 0x7FF0
 
-PSA Edited for Olimar Pikmin Sword Trails and Color Specific Jetpack
+PSA Edited for Olimar Pikmin Trails and Color Specific Jetpack
 - Replaced Model Data [7] in ef_pikmin, added ef_custom19
 
 PSA Edited for Meta Knight Costume Specific Sword Glow, GFX
@@ -88,7 +93,7 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Action 0x117, Entry; Action 0x118, Entry
-- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX; 
+- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX
 In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
 ##############
@@ -184,3 +189,8 @@ Mewtwo PM 3.02 soundbank to P+ 3.1.2 soundbank SFX porting list:
 0x25F7 0x402E
 0x25F8 0x402E
 0x25F9 0x402E
+
+#####################
+Throw Release Credits
+#####################
+A huge thank you to Eon and QuickLava who helped me look for the throw release point code in all the PM builds, as well as helping translate them into a format that works with the existing ThrowRelease code.
