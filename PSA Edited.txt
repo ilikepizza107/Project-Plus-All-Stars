@@ -8,6 +8,7 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Actions 0x117, Entry; 0x118, Entry; 0x11A, Entry; 0x11E, Entry in FitMewtwo.pac
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
+- KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main; in FitSonic.pac
 
 PSA Edited for Mario Pills, Side Special (module edits needed as well)
 - Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
@@ -86,14 +87,15 @@ Note: Due to file corruption, Charizard's PSA was remade using P+ 3.1.2's FitPok
 - MiscSection, Hurt Boxes, Data0; MiscSection, Hurt Boxes, Data3; MiscSection, Hurt Boxes, Data5; MiscSection, Ledge Grab, Ledge Grab 0; MiscSection, Ledge Grab, Ledge Grab 1; MiscSection, Ledge Grab, Ledge Grab 2 (Removed); MiscSection, Sound Lists, SoundData2; MiscSection, Sound Lists, SoundData4; MiscSection, Multi Jump, Unknown2; MiscSection, Multi Jump, Hops; SpecialActionFlags, Action 0x115; ExtraActionFlags, Action 0xD; ExtraActionFlags, Action 0x87; ExtraActionFlags, Action 0x88
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
-- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Actoin 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX; 
+- Action 0x117, Entry; Action 0x118, Entry
+- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX; 
 In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
 ##############
 Module Credits
 ##############
 
-Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, and ROB module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
 
