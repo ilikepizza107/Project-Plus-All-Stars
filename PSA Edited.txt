@@ -1,10 +1,11 @@
 Project Plus is a wonderful game, and working on this project has helped me see, even more than I already saw, that we truly stand on the shoulders of giants. Even though the game looks and plays better than ever before, none of that would be possible without all of the work put in by the original PMDT and LTE teams. I hope this little walk down memory lane is enjoyable for you, and thank you for playing!
 
-############
-PSA Credits
-############
+###################
+PSA Changes/Credits
+###################
 
 All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing general editing guidance
+Unless otherwise stated, all PSAs use the FitFighter.pac and FitFighterMotionEtc.pac from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
 
 Additional PSA Credits: 
 - KingJigglypuff for edits in Actions 0x117, Entry; 0x118, Entry; 0x11A, Entry; 0x11E, Entry in FitMewtwo.pac
@@ -96,17 +97,18 @@ PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX
 In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
-##############
-Module Credits
-##############
+######################
+Module Changes/Credits
+######################
+Unless otherwise stated, all modules use the ft_fighter.rel from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
 
 Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
 
-###########
-SFX Credits
-###########
+###################
+SFX Changes/Credits
+###################
 Porting tools made by TheGag96/Codes
 
 Roy PM 3.02 soundbank to P+ 3.1.2 soundbank SFX porting list:
@@ -190,7 +192,37 @@ Mewtwo PM 3.02 soundbank to P+ 3.1.2 soundbank SFX porting list:
 0x25F8 0x402E
 0x25F9 0x402E
 
-#####################
-Throw Release Credits
-#####################
+#############################
+Throw Release Changes/Credits
+#############################
 A huge thank you to Eon and QuickLava who helped me look for the throw release point code in all the PM builds, as well as helping translate them into a format that works with the existing ThrowRelease code.
+
+#######################
+Codeset Changes/Credits
+#######################
+Special thanks to Eon for help determining which codes were safe to remove
+
+Codes removed from RSBE01.txt:
+[Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
+[Project+] Throws Don't Trip on Grounded Banana 2.0 [Eon]
+[Project+] Roy Counter Fix [ds22]
+[Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko]
+[Project+] Mach Tornado Doesn't Ricochet [DukeItOut]
+[Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon]
+
+Codes removed from Source/Project+/YoshiEggs.asm:
+[Project+] Yoshi's Egg break out intang 14 > 9 [Fracture]
+[Project+] Egged Damage Multiplier (0.5x -> 0.75x) [DukeItOut]
+
+Codes added to RSBE01.txt:
+DK Cargo Mash Fix [Magus]
+
+Codes edited from Source/Project M/Constants.asm:
+3400 - DK Cargo Hold Base Time
+3401 - DK Cargo Hold Increase per Damage
+3402 - DK Cargo Hold Reduction per Input
+
+Codes removed from Source/Project M/Constants.asm:
+Game & Watch Has 2 Jabs [Magus]
+Zard Has 1 Jab [ds22]
+Zard ThrownType is 2 [ds22]

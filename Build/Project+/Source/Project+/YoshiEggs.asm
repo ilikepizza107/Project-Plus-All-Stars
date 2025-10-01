@@ -101,7 +101,7 @@ HOOK @ $80A15CFC
 }
 
 #########################################################
-[Project+] Yoshi's Egg break out intang 14 > 9 [Fracture]
+![Project+] Yoshi's Egg break out intang 14 > 9 [Fracture]
 #########################################################
 int 9 @ $80B88FD4
 
@@ -111,6 +111,6 @@ Yoshi Eggs don't despawn when Yoshi dies [Eon]
 op nop @ $80A15CC0
 
 ##############################################################
-[Project+] Egged Damage Multiplier (0.5x -> 0.75x) [DukeItOut]
+![Project+] Egged Damage Multiplier (0.5x -> 0.75x) [DukeItOut]
 ##############################################################
 float 0.75 @ $80B88758

@@ -1728,7 +1728,7 @@ skip:
 
 
 ##############################################################
-[Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
+![Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
 ##############################################################
 HOOK @ $8089156c
 {
@@ -1736,6 +1736,11 @@ HOOK @ $8089156c
   ori r12, r12, 0x84A8
   lfs f2, 0(r12)
 }
+
+#########################
+DK Cargo Mash Fix [Magus]
+#########################
+op nop @ $80891774
 
 ###################################################################
 [Project+] Grabbed Opponents face opposite way from grabber [Eon]
@@ -1765,7 +1770,7 @@ HOOK @ $8077161c
 }
 
 #########################################################
-[Project+] Throws Don't Trip on Grounded Banana 2.0 [Eon]
+![Project+] Throws Don't Trip on Grounded Banana 2.0 [Eon]
 #########################################################
 HOOK @ $8076CEB0
 {
@@ -2499,7 +2504,7 @@ uint8_t 0x0 @ $80AD803C
 .include Source/Project+/YoshiEggs.asm
 
 ###############################################################
-[Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko]
+![Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko]
 ###############################################################
 float Infinite @ $80B88738
 
@@ -2775,7 +2780,7 @@ op li r30, 0x17 @ $8098652C
 op b 0x90 @ $80A6F11C
 
 ####################################################
-[Project+] Mach Tornado Doesn't Ricochet [DukeItOut]
+![Project+] Mach Tornado Doesn't Ricochet [DukeItOut]
 ####################################################
 op NOP @ $80A6467C
 op NOP @ $80A64614
@@ -2793,7 +2798,7 @@ DDD Result Name Modifier [ds22]
 * 00000000 00000000
 
 #################################
-[Project+] Roy Counter Fix [ds22] 
+![Project+] Roy Counter Fix [ds22] 
 #################################
 HOOK @ $808A1058
 {
@@ -2976,7 +2981,7 @@ Snake's U-Smash can Have Horizontal Velocity [Magus]
 * 60000000 00000000
 
 ##########################################################
-[Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon]
+![Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon]
 ##########################################################
 op nop @ $80ac7d2c
 
