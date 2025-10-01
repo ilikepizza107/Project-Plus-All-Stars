@@ -40,5 +40,3 @@ PIT..............ver. 3.02 	Done
 SNAKE............ver. 2.1 	Done
 SONIC............ver. 2.1 	Done - Neutral b oddities
 KNUCKLES.........ver. P+ 2.0	Done
-
-Throw Release - need Icies 3.6
