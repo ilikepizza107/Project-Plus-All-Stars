@@ -11,7 +11,8 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Actions 0x117, Entry; 0x118, Entry; 0x11A, Entry; 0x11E, Entry in FitMewtwo.pac
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
-- KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main; in FitSonic.pac
+- KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main in FitSonic.pac
+- KingJigglypuff for edits in Sub Action 0x65, Main in FitGameWatch.pac
 
 PSA Edited for Mario Pills, Side Special (module edits needed as well)
 - Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
@@ -98,6 +99,9 @@ PSA Edited for Ike Costume Specific Sword Trails, Spike Flame Effect, Blue Flame
 - Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, Main; Sub Action 0x66, GFX; Sub Action 0xB0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1CF, GFX; Sub Action 0x1D0, Main; Sub Action 0x1D0, GFX; Sub Action 0x1D1, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DE, GFX; Sub Action 0x1E1, GFX; Sub Action 0x1E2, GFX; Sub Action 0x1E9, GFX; Sub Action 0x1EF, GFX; Sub Action 0x1F0, GFX; Sub Action 0x1F1, Main; Sub Action 0x1F1, GFX
 - Article 0x0, Sub Action 0x2, GFX; Article 0x0, Sub Action 0x3, GFX
 In vP+, Sub Routine 0x97A0 is listed as 0x2CC0, Sub Routine 0x96C8 is listed as 0xF968, Sub Routine 0x9758 is listed as 0xFAC0, Sub Routine 0x8730 is listed as 0x8970
+
+PSA Edited for Game & Watch's Up Air Double Puff Bugfix
+- Sub Action 0x65, Main
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Action 0x117, Entry; Action 0x118, Entry
