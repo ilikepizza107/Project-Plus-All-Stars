@@ -38,5 +38,5 @@ IKE..............ver. 2.1 	Done
 OLIMAR...........ver. P+ 1.05b	Done
 PIT..............ver. 3.02 	Done
 SNAKE............ver. 2.1 	Done
-SONIC............ver. 2.1 	Done - Neutral b oddities
+SONIC............ver. 2.1 	Done
 KNUCKLES.........ver. P+ 2.0	Done
