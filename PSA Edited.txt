@@ -108,6 +108,13 @@ PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX;  Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D5, Main; Sub Action 0x1D5, SFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX
 In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
+PSA Edited for Dry Bowser Blue Fire
+- Edited ef_koopa
+- Sub Action 0x58, Main; Sub Action 0x58, GFX; Sub Action 0x1C2, GFX; Sub ACtion 0x1C3, GFX; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1D8, GFX; 
+- Sub Routine 0x29E18 (now 0xEC80, matches vP+); Sub Routine 0x29438; Sub Routine 0x27330 (now 0xED88), Sub Routine 0x28718 (now 0x13380), Sub Routine 0x13E10, Sub Routine 0xDAB8 (now 0x142B0), Sub Routine 0x142B0, Sub Routine 0x134D8 (now 0x7AA8), Sub Routine 0x8ED8, Sub Routine 0xFBA0, Sub Routine 0x14260 (now 0x144B0), Sub Routine 0x6760 (now 0x13568)
+In vP+, Sub Routine 0x13C40 is listed as 0xED88, Sub Rotuine 0x13CA8 is listed as 0x13380, Sub Routine 0x143A8 is listed as 0x144B0, SuB Routine 0x10390 is listed as 0x139C8
+
+
 ######################
 Module Changes/Credits
 ######################
