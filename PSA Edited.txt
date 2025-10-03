@@ -114,6 +114,10 @@ PSA Edited for Dry Bowser Blue Fire
 - Sub Routine 0x29E18 (now 0xEC80, matches vP+); Sub Routine 0x29438; Sub Routine 0x27330 (now 0xED88), Sub Routine 0x28718 (now 0x13380), Sub Routine 0x13E10, Sub Routine 0xDAB8 (now 0x142B0), Sub Routine 0x142B0, Sub Routine 0x134D8 (now 0x7AA8), Sub Routine 0x8ED8, Sub Routine 0xFBA0, Sub Routine 0x14260 (now 0x144B0), Sub Routine 0x6760 (now 0x13568)
 In vP+, Sub Routine 0x13C40 is listed as 0xED88, Sub Rotuine 0x13CA8 is listed as 0x13380, Sub Routine 0x143A8 is listed as 0x144B0, SuB Routine 0x10390 is listed as 0x139C8
 
+PSA Edited for Boxer DK Damage Bandage
+- Sub Action 0x0, Main; Sub Action 0x1C2, Main; Sub Action 0x1C3, Main; Sub Action 0x1C3, Main; Sub Action 0x1C4, Main; Sub Action 0x1C6, Main; Sub Action 0x1C8, Main; Sub Action 0x1CA, Main; 
+- ModelVisibility, BoneSwitch2; 
+In vP+, Sub Routine 0x14AE0 is listed as 0x13B70
 
 ######################
 Module Changes/Credits
