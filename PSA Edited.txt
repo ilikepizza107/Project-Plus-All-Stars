@@ -248,3 +248,8 @@ Codes removed from Source/Project M/Constants.asm:
 Game & Watch Has 2 Jabs [Magus]
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
+
+#########################
+Animation Changes/Credits
+#########################
+Hoodie Diddy Kong Animation Changes by ilikepizza107
