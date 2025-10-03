@@ -15,7 +15,7 @@ op stb r0, -0x1(r5) @ $8003CB1C
 op NOP				@ $8003CB28
 
 ##############################################################################################
-File Patch Code REDUX v0.95 (/Project+) [Sammi Husky]
+File Patch Code REDUX v0.95 (/AllStar+) [Sammi Husky]
 ##############################################################################################
 .alias _pf               = 0x80507b70
 .alias FPC_PATH          = 0x805a7c00
@@ -77,7 +77,7 @@ File Patch Code REDUX v0.95 (/Project+) [Sammi Husky]
 .RESET
 * 225664EC 00000000 # only execute if value at 0x805664EC != 0x0 (sd mounted)
 
-string    "/Project+/"                          @ $80406920 # Sets path used for SD lookups / reads
+string    "/Allstar+/"                          @ $80406920 # Sets path used for SD lookups / reads
 string    "pf"                                  @ $80507b70
 string    "SDStreamOpen (slot:%d): %s"          @ $80507b80
 uint8_t   0xA                                   @ $80507b9a

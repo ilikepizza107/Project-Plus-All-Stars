@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <app version="1">
-	<name>Project+ USB Loader</name>
+	<name>Project All-Stars+ USB Loader</name>
 	<version>1</version>		\\Configurable SD/USB Loader v70r78.11 by oggzee, usptactical, gannon, Dr. Clipper, R2-D2199, FIX94, airline38, Howard, NiTRo THe DeMoN
-	<release_date>20190331</release_date>
+	<release_date>20151010</release_date>
 	<coder>Project+ Dev Team</coder>	\\Kirbeast, waffeln, Bird
-	<short_description>Project+ USB Loader</short_description>
+	<short_description>Project All-Stars+ USB Loader</short_description>
 <long_description>
-Project + v3.1.2. All changes are not final.
+Project+ All-Stars v1.0. All changes are not final.
 
-This is a modified version of CFG USB Loader designed for instantly loading Project+ via USB.
+This is a modified version of CFG USB Loader designed for instantly loading Project+ All-Stars via USB.
 </long_description>
 <ahb_access/>
 <arguments>
