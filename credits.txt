@@ -253,3 +253,8 @@ Zard ThrownType is 2 [ds22]
 Animation Changes/Credits
 #########################
 Hoodie Diddy Kong Animation Changes by ilikepizza107
+
+##############
+Special Thanks
+##############
+Serb, for testing the Ice Climbers changes
