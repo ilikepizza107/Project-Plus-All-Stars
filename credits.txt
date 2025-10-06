@@ -243,6 +243,8 @@ Mewtwo PM 3.02 soundbank to P+ 3.1.2 soundbank SFX porting list:
 0x25F8 0x402E
 0x25F9 0x402E
 
+Knuckles soundbank porting from 0x176 to 0x146 done with BrawlInstaller. Thanks Squidgy!
+
 #############################
 Throw Release Changes/Credits
 #############################
