@@ -143,6 +143,11 @@ PSA Edited for Snake Knife Sword Glow
 - Edited ef_Snake
 - Sub Action 0x56, GFX; Sub Action 0x58, Main (No Event Cleanup, but still a change); Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5B, Main (No Event Cleanup, but still a change); Sub Action 0x5B, GFX
 
+PSA Edited for Knuckles Costume Specific Etc files
+- Edited ef_custom42
+- Sub Action 0x3D, GFX; Sub Action 0x3E, GFX; Sub Action 0x60, GFX; Sub Action 0x61, GFX; Sub Action 0x1CE, GFX; Sub Action 0x1CF, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D2, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E9, GFX; Sub Action 0x1F1, Main; Sub Action 0x1F1, GFX; 
+In vP+, Sub Routine 0x190A4 is listed as 0x7B28, Sub Routine 0x1A3B4 is listed as 0x280C0
+
 ######################
 Module Changes/Credits
 ######################
