@@ -258,3 +258,4 @@ Hoodie Diddy Kong Animation Porting Plugin by mawwwk
 Special Thanks
 ##############
 Serb, for testing the Ice Climbers changes
+Glitch, for the hackless stage builder launcher
