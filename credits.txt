@@ -49,7 +49,8 @@ PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and P
 - ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
 In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
 
-PSA Edited for Zelda Fixed Camera Stuff
+PSA Edited for Zelda Fixed Camera Perspective, Team Glow Compatibility Fix
+- Sub Action 0x6F, GFX; 
 - Attribute 0x1FC, Attribute 0x200, Attribute 0x204, Attribute 0x208
 
 PSA Edited for Pit Sword Trail Effects and Arrows
@@ -128,6 +129,11 @@ PSA Edited for Roy Costume Specific Sword Glows, Entry Animation Sound
 - Sub Action 0x1E, GFX; Sub Action 0x48, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Actino 0x54, GFX;  Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0xB0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C2, SFX; Sub Action 0x1CF, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DD, GFX; Sub Action 0x1DE, GFX; Sub Action 0x1E8, GFX; Sub Action 0x1EA, GFX; Sub Action 0x1EB, GFX; Sub Action 0x1EE, GFX; Sub Action 0x1EF, GFX; Sub Action 0x1EF, GFX; Sub Action 0x1F0, GFX; Sub Action 0x1F1, GFX; 
 - Sub Routine 0x82D0 (Created)
 In vP+, Sub Routine 0x332EC is listed as 0x4B40, Sub Routine 0x2E124 is listed as 0x59E8, Sub Routine 0xF3E8 is listed as 0x5B50, Sub Routine 0x8F80 is listed as 0x5DB8, Sub Routine 0xF620 is listed as 0x8A90
+
+PSA Edited for Diddy Kong Team Glow Compatibility Fix, Juggle Ball Changes
+- Edited ef_diddy
+- Sub Action 0x1BC, Main; SUb Routine 0x1BC, GFX; 
+In vP+ Sub Routine 0x11200 is listed as 0x7638, Sub Routine 0x128B0 is listed as 0xC970, Sub Routine 0x11490 is listed as 0x111D0, Sub Routine 0x12C68 is listed as 0x124B0 
 
 ######################
 Module Changes/Credits
