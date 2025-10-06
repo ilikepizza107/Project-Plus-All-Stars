@@ -269,7 +269,12 @@ Zard ThrownType is 2 [ds22]
 Animation Changes/Credits
 #########################
 Hoodie Diddy Kong Animation Porting Plugin by mawwwk
+
 Diddy Kong Win2 Wait Blink Fix ported by ilikepizza107 (Edited Win2Wait's SRT0, Reye, Texture 1)
+
+Pikachu Lightbulb Effects ported by ilikepizza107 (added VIZ0s to AppealHi, AttackAirF, AttackAirLw, AttackLw4, AttackLw4Hold, AttackLw4Start, AttackS4Hold, AttackS4S, AttackS4Start, CatchAttack, LandingAirLw, SpecialAirHiEnd, SpecialAirHiStart, SpecialAirLw, SpecialAirLwHit, SpecialAirN, SpecialAirSEnd, SpecialAirSHold, SpecialAirSReady, SpecialAirSStart, SpecialHiEnd, SpecialHiStart, SpecialLw, SpecialLwHit, SpecialN, SpecialS, SpecialSEnd, SpecialSHold, SpecialSReady, SpecialSStart, ThrowF)
+
+Pikachu Iron Tail Effects ported by ilikepizza107 (added VIZ0s to AttackHi4, AttackHi4Hold)
 
 ##############
 Special Thanks
