@@ -23,7 +23,7 @@ PSA Edited for Mario Pills, Side Special (module edits needed as well)
 - Sub Routine 0x26054, Sub Routine 0x6AD0 (previously 0x26A64), Sub Routine 0x79E0 (previously 0x25D6C)
 - Removed Texture Data [0] [Group 2] from FitMarioMotionEtc.pac
 
-PSA Edited for Link Bomb ItemEX Compatability
+PSA Edited for Link Bomb ItemEX Compatability (module edits needed as well)
 - Misc Tab, Misc Section, "Unknown24" Section
 
 PSA Edited for Yoshi Egg GFX (module edits needed as well)
@@ -36,9 +36,9 @@ In vP+, Sub Routine 0x11878 is listed as 0x6500 in this build's PSA;  Sub Routin
 PSA Edited for Captain Falcon Spike Flame Effect
 - Sub Action 0x66, Main
 
-PSA Edited for Toon Link Bomb ItemEX Compatability, Costume Specific Sword Glows, Different Colored Drinks
+PSA Edited for Toon Link Bomb ItemEX Compatability (module edits needed as well), Costume Specific Sword Glows, Different Colored Drinks, Wooden Shield Clanking (module edits needed as well)
 - Edited ef_toonlink
-- Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x56, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x74, GFX; Sub ACtion 0xB0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1C0, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DD, GFX; 
+- Sub Action 0x0, Main; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x56, GFX; Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0x74, GFX; Sub ACtion 0xB0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1C0, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DD, GFX; 
 - Sub Routine 0x7BD0 (created for blur 5)
 - Misc Tab, Misc Section, "Unknown24" Section
 In vP+, Sub Routine 0xA090 is listed as 0x78A8, Sub Routine 0xA740 is listed as 0x7AB8
@@ -128,7 +128,7 @@ PSA Edited for Boxer DK Damage Bandage
 - ModelVisibility, BoneSwitch2; 
 In vP+, Sub Routine 0x14AE0 is listed as 0x13B70
 
-PSA Edited for Roy Costume Specific Sword Glows, Entry Animation Sound
+PSA Edited for Roy Costume Specific Sword Glows, Entry Animation Sound, Dancing Blade Color Correction
 - Renamed and edited ef_saki to ef_roy
 - Sub Action 0x1E, GFX; Sub Action 0x48, GFX; Sub Action 0x4E, GFX; Sub Action 0x50, GFX; Sub Actino 0x54, GFX;  Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; Sub Action 0xB0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C2, SFX; Sub Action 0x1CF, GFX; Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D6, GFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DD, GFX; Sub Action 0x1DE, GFX; Sub Action 0x1E8, GFX; Sub Action 0x1EA, GFX; Sub Action 0x1EB, GFX; Sub Action 0x1EE, GFX; Sub Action 0x1EF, GFX; Sub Action 0x1EF, GFX; Sub Action 0x1F0, GFX; Sub Action 0x1F1, GFX; 
 - Sub Routine 0x82D0 (Created)
@@ -148,10 +148,15 @@ PSA Edited for Knuckles Costume Specific Etc files
 - Sub Action 0x3D, GFX; Sub Action 0x3E, GFX; Sub Action 0x60, GFX; Sub Action 0x61, GFX; Sub Action 0x1CE, GFX; Sub Action 0x1CF, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D2, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E9, GFX; Sub Action 0x1F1, Main; Sub Action 0x1F1, GFX; 
 In vP+, Sub Routine 0x190A4 is listed as 0x7B28, Sub Routine 0x1A3B4 is listed as 0x280C0
 
+PSA Edited for Marth Dancing Blade Color Correction
+- Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DE, GFX; 
+
 ######################
 Module Changes/Credits
 ######################
 Unless otherwise stated, all modules use the ft_fighter.rel from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
+
+Link and Toon Link module edits by ilikepizza107, with credit to Kapedani and MarioDox for providing editing guidance
 
 Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
