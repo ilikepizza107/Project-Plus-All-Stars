@@ -4,6 +4,8 @@ Project Plus is a wonderful game, and working on this project has helped me see,
 PSA Changes/Credits
 ###################
 
+Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.2 as a base for their movesets.
+
 All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing general editing guidance
 Unless otherwise stated, all PSAs use the FitFighter.pac and FitFighterMotionEtc.pac from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
 
@@ -13,6 +15,8 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
 - KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main in FitSonic.pac
 - KingJigglypuff for edits in Sub Action 0x65, Main in FitGameWatch.pac
+
+All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Bowser, Ganondorf, Ice Climbers, King Dedede, Squirtle, Charizard, Olimar, and Knuckles had Sub Action 0x7E, SFX and Sub Action 0x81, SFX edited to remove sound effect 0x53, preventing the grab sound effect doubling up.
 
 PSA Edited for Mario Pills, Side Special (module edits needed as well)
 - Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
