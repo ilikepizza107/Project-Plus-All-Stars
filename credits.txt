@@ -155,6 +155,13 @@ PSA Edited for Marth Dancing Blade Color Correction
 PSA Edited for Zero Suit Samus Article Spawn on Entry
 - Sub Action 0x1C2, Main
 
+PSA Edited for Lucario Aura Sphere Cancel
+- Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; 
+In vP+, Sub Routine 0x2A08 is listed as 0x7B20, Sub Routine 0xCFE0 is listed as 0x7768, Sub Routine 0xC238 is listed as 0x7848, Sub Routine 0xD490 is listed as 0x7970, Sub Routine 0x29B40 is listed as 0x23E88, Sub Routine 0x27010 is listeed as 0x23978
+Instead of 0xC2F8, use 0x7B28
+Instead of 0xC2B8, use 0x7B30
+
+
 ######################
 Module Changes/Credits
 ######################
