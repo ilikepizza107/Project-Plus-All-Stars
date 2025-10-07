@@ -1,1 +1,0 @@
-call "MakeSD\main.bat"
