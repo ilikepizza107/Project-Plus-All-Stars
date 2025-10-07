@@ -149,7 +149,10 @@ PSA Edited for Knuckles Costume Specific Etc files
 In vP+, Sub Routine 0x190A4 is listed as 0x7B28, Sub Routine 0x1A3B4 is listed as 0x280C0
 
 PSA Edited for Marth Dancing Blade Color Correction
-- Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DE, GFX; 
+- Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DE, GFX
+
+PSA Edited for Zero Suit Samus Article Spawn on Entry
+- Sub Action 0x1C2, Main
 
 ######################
 Module Changes/Credits
