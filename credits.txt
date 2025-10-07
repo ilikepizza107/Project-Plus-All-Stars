@@ -19,6 +19,8 @@ Additional PSA Credits:
 
 All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Bowser, Ganondorf, Ice Climbers, King Dedede, Squirtle, Charizard, Olimar, and Knuckles had Sub Action 0x7E, SFX and Sub Action 0x81, SFX edited to remove sound effect 0x53, preventing the grab sound effect doubling up.
 
+All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Ganondorf, Ice Climbers, King Dedede, Squirtle, Olimar, and Knuckles, had various Sub Routine jumps to 0x90XXXXXX addresses removed, as they are no longer needed due to P+ codeset changes
+
 PSA Edited for Mario Pills, Side Special (module edits needed as well)
 - Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
 - Sub Routine 0x26054, Sub Routine 0x6AD0 (previously 0x26A64), Sub Routine 0x79E0 (previously 0x25D6C)
