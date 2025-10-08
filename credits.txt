@@ -6,7 +6,7 @@ PSA Changes/Credits
 
 Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.2 as a base for their movesets.
 
-All PSA Edits by ilikepizza107, with credit to KingJigglypuff for providing general editing guidance
+All PSA Edits by ilikepizza107, with credit to KingJigglypuff and eon for providing general editing guidance
 Unless otherwise stated, all PSAs use the FitFighter.pac and FitFighterMotionEtc.pac from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
 
 Additional PSA Credits: 
@@ -81,9 +81,10 @@ In vP+, Sub Routine 0xF3E8 is listed as 0x7FF0
 PSA Edited for Olimar Pikmin Trails and Color Specific Jetpack
 - Replaced Model Data [7] in ef_pikmin, added ef_custom19
 
-PSA Edited for Meta Knight Costume Specific Sword Glow, GFX
+PSA Edited for Meta Knight Costume Specific Sword Glow, GFX, Turnaround Ftilt Tilt Stick Fix
 - Replaced ef_metaknight
 - Sub Action 0x4C, GFX; Sub Action 0x50, GFX; Sub Action 0x51, GFX; Sub Action 0x52, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, Main (No Event cleanup but still a change); Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 72, GFX; Sub Action B0, GFX; Sub Action 0xB9, GFX; Sub Action 0xD7, GFX; Sub Action 0xDC, GFX; Sub Action 0xE7, GFX; Sub Action 0x1D5, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1DB, GFX; Sub Action 0x1DC, GFX; Sub Action 0x1DE, GFX; Sub Action 1E2, GFX; Sub Action 0x1E4, GFX 
+- Override 0x25, Entry
 In vP+, Sub Routine 0xF6A8 is listed as 0xA070
 
 PSA Edited for Ivysaur Specific GFX, Final Smash, Shiny Entry
