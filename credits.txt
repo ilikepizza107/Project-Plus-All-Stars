@@ -46,10 +46,10 @@ PSA Edited for Toon Link Bomb ItemEX Compatability (module edits needed as well)
 - Misc Tab, Misc Section, "Unknown24" Section
 In vP+, Sub Routine 0xA090 is listed as 0x78A8, Sub Routine 0xA740 is listed as 0x7AB8
 
-PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise and Per-Costume Etc Files
+PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise, Per-Costume Etc Files, DACUS Slide Extension to 2 frames
 - Replaced ef_robot, added ef_custom23
 - Action 0x113, Entry (No Event: cleanup, but technically changed)
-- Sub Action 0x0, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
+- Sub Action 0x0, Main; Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX
 - Override 0xBD, Entry
 - Added statusAnimCmd_Dead External Sub Routine
@@ -113,8 +113,8 @@ PSA Edited for Ike Costume Specific Sword Trails, Spike Flame Effect, Blue Flame
 - Article 0x0, Sub Action 0x0, GFX; Article 0x0, Sub Action 0x2, GFX; Article 0x0, Sub Action 0x3, GFX
 In vP+, Sub Routine 0x97A0 is listed as 0x2CC0, Sub Routine 0x96C8 is listed as 0xF968, Sub Routine 0x9758 is listed as 0xFAC0, Sub Routine 0x8730 is listed as 0x8970
 
-PSA Edited for Game & Watch's Up Air Double Puff Bugfix
-- Sub Action 0x65, Main
+PSA Edited for Game & Watch's Up Air Double Puff Bugfix, DACUS Slide Extension to 2 frames
+- Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x65, Main
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Action 0x117, Entry; Action 0x118, Entry
