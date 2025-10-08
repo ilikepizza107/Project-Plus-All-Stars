@@ -298,6 +298,10 @@ Game & Watch Has 2 Jabs [Magus]
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
 
+Codes edited from default values - 
+Source/LegacyTE/TagsControls.asm
+Source/Project+/Random.asm
+
 #########################
 Animation Changes/Credits
 #########################
