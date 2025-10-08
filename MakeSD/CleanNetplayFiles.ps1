@@ -1,0 +1,15 @@
+del "..\Build\AllStar+\NETPLAY.txt" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\AllStar+\NETBOOST.txt" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\AllStar+\pf\menu3\dnet.cmnu" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\AllStar+\pf\movie" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\AllStar+\pf\sound\netplaylist" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\AllStar+\Source\Netplay" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+Move-Item "../stBackup/" -Destination "../Build/AllStar+/st/" -Force
+
+#RSBE01.txt
+$rsbe01Path = "..\Build\AllStar+\RSBE01.txt"
+$strapcode = Select-String -Path $rsbe01Path -Pattern "046CADE8"
+if ($strapcode -ne $null)
+{
+	(Type "..\Build\AllStar+\RSBE01.txt") -notmatch "^* 046CADE8 48000298$" | Set-Content "..\Build\AllStar+\RSBE01.txt"
+}
