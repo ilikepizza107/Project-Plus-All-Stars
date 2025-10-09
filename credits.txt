@@ -72,10 +72,11 @@ PSA Edited for Pikachu Iron Tail Up Smash + Tail Switch
 - ModelVisibility, BoneSwitch1
 In vP+, Sub Routine 0xFCF0 is listed as 0x6DB0, Sub Routine 0xFD20 is listed as 0xC340, Sub Routine 0xFE30 is listed as 0xF2F0
 
-PSA Edited for Mewtwo General GFX, Shadow Ball, Tail Trails
+PSA Edited for Mewtwo General GFX, Shadow Ball, Tail Trails, Visibility Fix
 - Added ef_custom96
 - Action 0x117, Entry; Action 0x118, Entry; Action 0x11A, Entry; Action 0x11E, Entry
 - Sub Action 0x1B, GFX; Sub Action 0x1C, GFX; Sub Action 0x44, GFX; Sub Action 0x45, GFX; Sub Action 0x54, GFX; Sub Action 0x55, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x73, GFX; Sub Action 0x98, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C8, GFX; Sub Action 1D2, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D9, GFX; Sub Action 1E1, GFX; Sub Action 1E2, GFX
+- Override 0x1E, Exit; Override 0x21, Exit
 In vP+, Sub Routine 0xF3E8 is listed as 0x7FF0
 
 PSA Edited for Olimar Pikmin Trails and Color Specific Jetpack
