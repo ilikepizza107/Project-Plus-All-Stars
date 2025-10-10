@@ -319,4 +319,5 @@ Pikachu Iron Tail Effects ported by ilikepizza107 (added VIZ0s to AttackHi4, Att
 Special Thanks
 ##############
 Serb, for testing the Ice Climbers changes
+Tuck and shad, for testing bugs with me
 Glitch, for the hackless stage builder launcher
