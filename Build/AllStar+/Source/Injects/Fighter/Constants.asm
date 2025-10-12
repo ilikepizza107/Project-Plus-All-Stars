@@ -81,12 +81,12 @@
 	float 12.0	   @ $80B886A4
 3389 - Kirby Inhale Star reduction per Input [10 -> 0] # added from vanilla
 	float 0.0	   @ $80B886B0
-3400 - DK Cargo Hold Base Time [100->90]
-	float 90.0	   @ $80B886DC
-3401 - DK Cargo Hold Increase per Damage [5->2.5 (was 0.592 in 2.0)]
-	float 2.5	   @ $80B886E0
-3402 - DK Cargo Hold Reduction per Input [10->8]
-	float 8.0	   @ $80B886E4
+3400 - DK Cargo Hold Base Time [100->13]
+	float 13.0	   @ $80B886DC
+3401 - DK Cargo Hold Increase per Damage [5->0.074]
+	float 0.074	   @ $80B886E0
+3402 - DK Cargo Hold Reduction per Input [10->1]
+	float 1.0	   @ $80B886E4
 3412 - Dedede Inhale Star Reduction per Input [12 -> 3 -> 0] # changed from vanilla
 	float 0.0	   @ $80B8870C
 3466 - Curry Run Animation Speed Multiplier [2->1]
@@ -157,7 +157,7 @@ Link Has a Rapid Jab [Magus]
 Samus Has a Crawl
 	int 1 @ $80B0B304
 Game & Watch Has 2 Jabs [Magus]
-	int 2 @ $80B0B634
+#	int 2 @ $80B0B634
 Lucario has no wallcling [Standardtoaster]
 	int 0 @ $80B0B9A0
 Lucas Has 2 Jabs [Magus]
@@ -165,9 +165,9 @@ Lucas Has 2 Jabs [Magus]
 Pit cannot glide from jumps [standardtoaster]
 	int 0 @ $80B0B760
 Zard Has 1 Jab [ds22]
-	int 1 @ $80B0B89C
+#	int 1 @ $80B0B89C
 Zard ThrownType is 2 [ds22]
-	int 2 @ $80B0B8C8
+#	int 2 @ $80B0B8C8
 G-Alloy ThrownType is 1 [ds22]
 	int 1 @ $80B0BE08
 Snake has 2 Forward Smashes [KingJigglypuff]
