@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.15">
+	<name>Project+ All-Stars Launcher</name>
+	<version>3.1.5</version>
+	<coder>ilikepizza107, with credit to the Project+ and Project M Dev Teams</coder>
+	<release_date>20250609</release_date>
+	<short_description>Project+ All-Stars Launcher</short_description>
+	<long_description>
+Project+ All-Stars is a mod of Project+ that pits the best version of each character against each other. This mod would not be possible without the longstanding support of the Brawl Modding community. Thank you for playing!</long_description>
+	<arguments>
+		<arg>--codespath=sd:/allstar+</arg>
+	</arguments>
+	<ahb_access/>
+</app>
