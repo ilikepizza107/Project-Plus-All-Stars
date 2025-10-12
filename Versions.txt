@@ -14,11 +14,11 @@ PEACH.............ver. P+ 3.1.2
 BOWSER............ver. P+ 1.05b
 ZELDA.............ver. 1.0 
 SHEIK.............ver. 3.02 
-GANONDORF.........ver. P+ 2.2
+GANONDORF.........ver. P+ 2.5.2
 FALCO.............ver. 2.1 
 MEWTWO............ver. 3.02 
 ICE CLIMBERS......ver. 3.6 
-MR. GAME & WATCH..ver. 2.6 
+MR. GAME & WATCH..ver. 3.5 
 MARTH.............ver. 3.02 
 ROY...............ver. 3.02
 WARIO.............ver. 2.5 
@@ -27,7 +27,7 @@ TOON LINK.........ver. 3.02
 ZERO SUIT SAMUS...ver. 3.02 
 WOLF..............ver. 2.5b
 METAKNIGHT........ver. 3.02 
-KING DEDEDE.......ver. P+ 3.1.2
+KING DEDEDE.......ver. P+ 3.0.2
 SQUIRTLE..........ver. P+ 2.1.5
 IVYSAUR...........ver. 2.6
 CHARIZARD.........ver. 2.5b 
