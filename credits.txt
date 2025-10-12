@@ -46,15 +46,15 @@ PSA Edited for Toon Link Bomb ItemEX Compatability (module edits needed as well)
 - Misc Tab, Misc Section, "Unknown24" Section
 In vP+, Sub Routine 0xA090 is listed as 0x78A8, Sub Routine 0xA740 is listed as 0x7AB8
 
-PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise, Per-Costume Etc Files, DACUS Slide Extension to 2 frames
+PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise, Per-Costume Etc Files, DACUS Slide Extension to 2 frames, Wii SD Card Cover Opening (module edits needed as well)
 - Replaced ef_robot, added ef_custom23
 - Action 0x113, Entry (No Event: cleanup, but technically changed)
-- Sub Action 0x0, Main; Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 1C2, Main; Suc Action 1C3, Main; Sub Action 1C4, Main; Sub Action 1C6, Main; Sub Action 1C8, Main; Sub Action 1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
+- Sub Action 0x0, Main; Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 0x7E, Other; Sub Action 0x7F, Other; Sub Action 0x80, Other; Sub Action 0x81, Other; Sub Action 0x82, Other; Sub Action 0x83, Other; Sub Action 0x84, Other; Sub Action 0x85, Other; Sub Action 0x86, Other; Sub Action 0x87, Other; Sub Action 0x88, Other; Sub Action 0x89, Other; Sub Action 0x8A, Other; Sub Action 0x8B, Other; Sub Action 0x8C, Other; Sub Action 0x8D, Other; Sub Action 0x8E, Other; Sub Action 0x8F, Other; Sub Action 0x90, Other; Sub Action 0x91, Other; Sub Action 0x92, Other; Sub Action 0x93, Other; Sub Action 0x94, Other; Sub Action 0x95, Other; Sub Action 0x98, Other; Sub Action 0x99, Other; Sub Action 0x9A, Other; Sub Action 0x9B, Other; Sub Action 0x9C, Other; Sub Action 0x9D, Other; Sub Action 0x9E, Other; Sub Action 0x9F, Other; Sub Action 0xA0, Other; Sub Action 0xA1, Other; Sub Action 0xA2, Other; Sub Action 0xA3, Other; Sub Action 0xA4, Other; Sub Action 0xA5, Other; Sub Action 0xA6, Other; Sub Action 0xA7, Other; Sub Action 0xA8, Other; Sub Action 0xA9, Other; Sub Action 0xAB, Other; Sub Action 0xAC, Other; Sub Action 0xAD, Other; Sub Action 0xB4, Other; Sub Action 0xB5, Other; Sub Action 0xC5, Other; Sub Action 0xF5, Other; Sub Action 0xF6, Other; Sub Action 0x1C2, Main; Sub Action 0x1C3, Main; Sub Action 0x1C4, Main; Sub Action 0x1C6, Main; Sub Action 0x1C8, Main; Sub Action 0x1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX
 - Override 0xBD, Entry
 - Added statusAnimCmd_Dead External Sub Routine
-- ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2
-In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0
+- ModelVisibility, Default Visibility; ModelVisibility, BoneSwitch1; ModelVisibility, BoneSwitch2; ModelVisibility, BoneSwitch3
+In vP+, Sub Routine 0xD058 is listed as 0x14350 in this build's PSA; Sub Routine 0x2F98 is listed as 0x12CC8, Sub Routine 0x7358 is listed as 0x13658, and Sub Routine 0x16250 is listed as 0x13EE0, Sub Routine 0x14378 is listed as 0x141A0, Sub Routine 0x15450 is listed as 0x144D0, Sub Routine 0x14380 is listed as 0x3948
 
 PSA Edited for Zelda Fixed Camera Perspective, Team Glow Compatibility Fix
 - Sub Action 0x6F, GFX; 
