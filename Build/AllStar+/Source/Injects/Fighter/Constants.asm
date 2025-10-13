@@ -157,7 +157,7 @@ Link Has a Rapid Jab [Magus]
 Samus Has a Crawl
 	int 1 @ $80B0B304
 Game & Watch Has 2 Jabs [Magus]
-#	int 2 @ $80B0B634
+	int 2 @ $80B0B634
 Lucario has no wallcling [Standardtoaster]
 	int 0 @ $80B0B9A0
 Lucas Has 2 Jabs [Magus]
