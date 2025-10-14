@@ -162,9 +162,9 @@ PSA Edited for Zero Suit Samus Article Spawn on Entry
 
 PSA Edited for Lucario Aura Sphere Cancel
 - Added ef_custom97
-- Sub Action 0x1C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; 
+- Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; 
 - Sub Routine 0x23E88, Sub Routine 0x23C58
-In vP+, Sub Routine 0x2A08 is listed as 0x7B20, Sub Routine 0xCFE0 is listed as 0x7768, Sub Routine 0xC238 is listed as 0x7848, Sub Routine 0xD490 is listed as 0x7970, Sub Routine 0x29B40 is listed as 0x23E88, Sub Routine 0x27010 is listed as 0x23978, Sub Routine 0x28808 is listed as 0x7B68
+In vP+, Sub Routine 0x2A08 is listed as 0x7568, Sub Routine 0xCFE0 is listed as 0x7B48, Sub Routine 0xC238 is listed as 0x7A78, Sub Routine 0xD490 is listed as 0x8208, Sub Routine 0x28808 is listed as 0x79E8
 
 ######################
 Module Changes/Credits
@@ -173,7 +173,7 @@ Unless otherwise stated, all modules use the ft_fighter.rel from the appropriate
 
 Link and Toon Link module edits by ilikepizza107, with credit to Kapedani and MarioDox for providing editing guidance
 
-Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+Mario, Snake, Ike, GnW, Falco, Lucas, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
 
