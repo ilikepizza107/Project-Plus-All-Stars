@@ -14,7 +14,7 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
 - KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main in FitSonic.pac
-- KingJigglypuff for edits in Sub Action 0x65, Main in FitGameWatch.pac
+- KingJigglypuff for edits in Sub Action 0x65, Main; Sub Action 0x1CE, GFX; Sub Routine 0x5BF8 in FitGameWatch.pac
 - KingJigglypuff for edits in Sub Action 0x1E1, Main; Sub Action 0x1EC, Main; in FitIke.pac
 
 All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Bowser, Ganondorf, Ice Climbers, King Dedede, Squirtle, Charizard, Olimar, and Knuckles had Sub Action 0x7E, SFX and Sub Action 0x81, SFX edited to remove sound effect 0x53, preventing the grab sound effect doubling up.
@@ -114,12 +114,13 @@ PSA Edited for Ike Costume Specific Sword Trails, Spike Flame Effect, Blue Flame
 - Article 0x0, Sub Action 0x0, GFX; Article 0x0, Sub Action 0x2, GFX; Article 0x0, Sub Action 0x3, GFX
 In vP+, Sub Routine 0x97A0 is listed as 0x2CC0, Sub Routine 0x96C8 is listed as 0xF968, Sub Routine 0x9758 is listed as 0xFAC0, Sub Routine 0x8730 is listed as 0x8970
 
-PSA Edited for Game & Watch's Up Air Double Puff Bugfix
-- Sub Action 0x65, Main
+PSA Edited for Game & Watch's Up Air Double Puff Bugfix, Memory Leak fix, Bacon fix
+- Sub Action 0x0, Main; Sub Action 0x65, Main; Sub Action 0x1CE, GFX; Sub Routine 0x5BF8 
+- ExtraActionInterrupts
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
 - Action 0x117, Entry; Action 0x118, Entry
-- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX;  Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D5, Main; Sub Action 0x1D5, SFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX
+- Sub Action 0xF, GFX; Sub Action 0x4E, GFX; Sub Action 0x4E, SFX; Sub Action 0x5B, GFX; Sub Action 0x5D, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x66, GFX; Sub Action 0x75, GFX; Sub Action 0xD7, GFX; Sub Action 0xEE, GFX; Sub Action 0xEF, GFX; Sub Action 0xF0, GFX; Sub Action 0xF1, GFX; Sub Action 0xF2, GFX; Sub Action 0xF3, GFX; Sub Action 0xF4, GFX; Sub Action 0xF5, GFX; Sub Action 0xF6, GFX; Sub Action 0x1BE, GFX; Sub Action 0x1C2, GFX; Sub Action 0x1C4, GFX;  Sub Action 0x1D0, GFX; Sub Action 0x1D1, GFX; Sub Action 0x1D4, Main; Sub Action 0x1D5, Main; Sub Action 0x1D5, SFX; Sub Action 0x1D7, GFX; Sub Action 0x1D8, GFX; Sub Action 0x1D9, GFX; Sub Action 0x1DA, GFX; Sub Action 0x1E3, GFX; Sub Action 0x1E4, GFX; Sub Action 0x1E5, GFX; Sub Action 0x1E9, GFX
 In vP+, Sub Routine 0x9E28 is listed as 0x8E48
 
 PSA Edited for Bowser Dry Costume Blue Fire
@@ -162,9 +163,9 @@ PSA Edited for Zero Suit Samus Article Spawn on Entry
 
 PSA Edited for Lucario Aura Sphere Cancel
 - Added ef_custom97
-- Sub Action 0x1C, GFX; Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; 
+- Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; 
 - Sub Routine 0x23E88, Sub Routine 0x23C58
-In vP+, Sub Routine 0x2A08 is listed as 0x7B20, Sub Routine 0xCFE0 is listed as 0x7768, Sub Routine 0xC238 is listed as 0x7848, Sub Routine 0xD490 is listed as 0x7970, Sub Routine 0x29B40 is listed as 0x23E88, Sub Routine 0x27010 is listed as 0x23978, Sub Routine 0x28808 is listed as 0x7B68
+In vP+, Sub Routine 0x2A08 is listed as 0x7568, Sub Routine 0xCFE0 is listed as 0x7B48, Sub Routine 0xC238 is listed as 0x7A78, Sub Routine 0xD490 is listed as 0x8208, Sub Routine 0x28808 is listed as 0x79E8
 
 ######################
 Module Changes/Credits
@@ -173,7 +174,7 @@ Unless otherwise stated, all modules use the ft_fighter.rel from the appropriate
 
 Link and Toon Link module edits by ilikepizza107, with credit to Kapedani and MarioDox for providing editing guidance
 
-Mario, Snake, Ike, GnW, Falco, Lucas, Lucario, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
+Mario, Snake, Ike, GnW, Falco, Lucas, Ness, Wario, ROB, and Sonic module edits by ilikepizza107, with credit to KingJigglypuff for providing editing guidance
 
 Yoshi Module edits by KingJigglypuff
 
@@ -296,7 +297,6 @@ Codes edited from Source/Project M/Constants.asm:
 3402 - DK Cargo Hold Reduction per Input
 
 Codes removed from Source/Project M/Constants.asm:
-Game & Watch Has 2 Jabs [Magus]
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
 

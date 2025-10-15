@@ -14,7 +14,7 @@ Additional PSA Credits:
 - KingJigglypuff for edits in Sub Action 0x1D7, Other; Sub Action 0x1D8, Other in FitPokeFushigisou.pac
 - KingJigglypuff for edits in Article 0x0, Action 0x0; Article 0x0, Sub Action 0x0, Main; Article 0x0, Sub Action 0x0, GFX in FitPokeLizardon.pac
 - KingJigglypuff for edits in Action 0x117, Entry; Action 0x118, Entry; Sub Action 0x1D4, Main in FitSonic.pac
-- KingJigglypuff for edits in Sub Action 0x65, Main in FitGameWatch.pac
+- KingJigglypuff for edits in Sub Action 0x65, Main; Sub Action 0x1CE, GFX; Sub Routine 0x5BF8 in FitGameWatch.pac
 - KingJigglypuff for edits in Sub Action 0x1E1, Main; Sub Action 0x1EC, Main; in FitIke.pac
 
 All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Bowser, Ganondorf, Ice Climbers, King Dedede, Squirtle, Charizard, Olimar, and Knuckles had Sub Action 0x7E, SFX and Sub Action 0x81, SFX edited to remove sound effect 0x53, preventing the grab sound effect doubling up.
@@ -114,8 +114,8 @@ PSA Edited for Ike Costume Specific Sword Trails, Spike Flame Effect, Blue Flame
 - Article 0x0, Sub Action 0x0, GFX; Article 0x0, Sub Action 0x2, GFX; Article 0x0, Sub Action 0x3, GFX
 In vP+, Sub Routine 0x97A0 is listed as 0x2CC0, Sub Routine 0x96C8 is listed as 0xF968, Sub Routine 0x9758 is listed as 0xFAC0, Sub Routine 0x8730 is listed as 0x8970
 
-PSA Edited for Game & Watch's Up Air Double Puff Bugfix, Memory Leak fix
-- Sub Action 0x0, Main; Sub Action 0x65, Main
+PSA Edited for Game & Watch's Up Air Double Puff Bugfix, Memory Leak fix, Bacon fix
+- Sub Action 0x0, Main; Sub Action 0x65, Main; Sub Action 0x1CE, GFX; Sub Routine 0x5BF8 
 - ExtraActionInterrupts
 
 PSA Edited for Sonic Costume Specific Etc files, Floaties
