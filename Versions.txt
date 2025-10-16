@@ -31,7 +31,7 @@ KING DEDEDE.......ver. P+ 3.0.2
 SQUIRTLE..........ver. P+ 2.1.5
 IVYSAUR...........ver. 2.6
 CHARIZARD.........ver. 2.5b 
-LUCARIO...........ver. 2.1 
+LUCARIO...........ver. 3.02
 LUCAS.............ver. 2.6 
 R.O.B.............ver. 2.6 
 IKE...............ver. 2.1 
