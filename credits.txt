@@ -145,10 +145,10 @@ PSA Edited for Diddy Kong Team Glow Compatibility Fix, Juggle Ball Changes
 - Sub Action 0x1BC, Main; SUb Routine 0x1BC, GFX; 
 In vP+ Sub Routine 0x11200 is listed as 0x7638, Sub Routine 0x128B0 is listed as 0xC970, Sub Routine 0x11490 is listed as 0x111D0, Sub Routine 0x12C68 is listed as 0x124B0 
 
-PSA Edited for Snake Knife Sword Glow
+PSA Edited for Snake Knife Sword Glow, Crawl SFX Fix
 - Edited ef_Snake
-- Sub Action 0x4B, Main; Sub Action 0x55, Main; Sub Action 0x56, GFX; Sub Action 0x58, Main (No Event Cleanup, but still a change); Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5B, Main (No Event Cleanup, but still a change); Sub Action 0x5B, GFX
-- Override 0x29, Entry; 
+- Sub Action 0x2E, SFX; Sub Action 0x2F, GFX; Sub Action 0x4B, Main; Sub Action 0x55, Main; Sub Action 0x56, GFX; Sub Action 0x58, Main (No Event Cleanup, but still a change); Sub Action 0x58, GFX; Sub Action 0x59, GFX; Sub Action 0x5B, Main (No Event Cleanup, but still a change); Sub Action 0x5B, GFX
+- Override 0x29, Entry
 
 PSA Edited for Knuckles Costume Specific Etc files
 - Edited ef_custom42
