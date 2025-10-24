@@ -4,7 +4,7 @@ Project Plus is a wonderful game, and working on this project has helped me see,
 PSA Changes/Credits
 ###################
 
-Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.2 as a base for their movesets.
+Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.5 as a base for their movesets.
 
 All PSA Edits by ilikepizza107, with credit to KingJigglypuff and eon for providing general editing guidance
 Unless otherwise stated, all PSAs use the FitFighter.pac and FitFighterMotionEtc.pac from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
@@ -300,7 +300,7 @@ Codes removed from Source/Project M/Constants.asm:
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
 
-Codes edited from default values - 
+Codes edited from default values (not gameplay related) - 
 Source/LegacyTE/TagsControls.asm
 Source/Project+/Random.asm
 
@@ -314,6 +314,8 @@ Diddy Kong Win2 Wait Blink Fix ported by ilikepizza107 (Edited Win2Wait's SRT0, 
 Pikachu Lightbulb Effects ported by ilikepizza107 (added VIZ0s to AppealHi, AttackAirF, AttackAirLw, AttackLw4, AttackLw4Hold, AttackLw4Start, AttackS4Hold, AttackS4S, AttackS4Start, CatchAttack, LandingAirLw, SpecialAirHiEnd, SpecialAirHiStart, SpecialAirLw, SpecialAirLwHit, SpecialAirN, SpecialAirSEnd, SpecialAirSHold, SpecialAirSReady, SpecialAirSStart, SpecialHiEnd, SpecialHiStart, SpecialLw, SpecialLwHit, SpecialN, SpecialS, SpecialSEnd, SpecialSHold, SpecialSReady, SpecialSStart, ThrowF)
 
 Pikachu Iron Tail Effects ported by ilikepizza107 (added VIZ0s to AttackHi4, AttackHi4Hold)
+
+Judge GnW VIS0 Fix ported by Layell (added VIZ0s to SpecialAirHi, SpecialHi, ThrowB, ThrowF, ThrowHi, ThrowLw, AttackLw4, AttackLw4Hold, AttackLw4Start, LadderUp, LadderWait, CliffJumpSlow1, CliffJumpSlow2, CliffJumpQuick1, CliffJumpQuick2, SwimRise, LightThrowHi, LightThrowAirHi, HeavyThrowHi, Passive, PassiveCeil, PassiveStandB, PassiveStandF, ItemDragoonGet, ItemDragoonRide, Entry)
 
 ##############
 Special Thanks
