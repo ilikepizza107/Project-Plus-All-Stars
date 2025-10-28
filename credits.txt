@@ -142,7 +142,7 @@ In vP+, Sub Routine 0x332EC is listed as 0x4B40, Sub Routine 0x2E124 is listed a
 
 PSA Edited for Diddy Kong Team Glow Compatibility Fix, Juggle Ball Changes
 - Edited ef_diddy
-- Sub Action 0x1BC, Main; SUb Routine 0x1BC, GFX; 
+- Sub Action 0x1BC, Main; Sub Routine 0x1BC, GFX; 
 In vP+ Sub Routine 0x11200 is listed as 0x7638, Sub Routine 0x128B0 is listed as 0xC970, Sub Routine 0x11490 is listed as 0x111D0, Sub Routine 0x12C68 is listed as 0x124B0 
 
 PSA Edited for Snake Knife Sword Glow, Crawl SFX Fix
