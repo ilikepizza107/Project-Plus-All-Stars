@@ -1114,10 +1114,16 @@ end:
 
 ##################################################################
 Tether Limit is 1 for Zair and 2 for others V1.2 [standardtoaster]
+Edited for Project+ All-Stars by ilikepizza107
 ##################################################################
 HOOK @ $808E9470
 {
-  lwz r7, 96(r25)
+  lis r11, 0x9018	# \
+  ori r11, r11,0x0FB8	# | Load up gmPlayerInitData
+  lbz r12, 0(r11) 	# /
+  cmpwi r12, 0x3	# Is it Samus?
+  bne+ skip		# If not, skip the code below
+  lwz r7, 96(r25)	# Otherwise, continue with the code
   lwz r7, 124(r7)
   lhz r7, 6(r7)
   cmpwi r7, 0x82
@@ -1127,6 +1133,10 @@ HOOK @ $808E9470
 
 loc_0x1C:
   cmpwi r3, 0x1
+  b %END%
+
+skip:
+  cmpwi r3, 0x3
 }
 
 #######################
