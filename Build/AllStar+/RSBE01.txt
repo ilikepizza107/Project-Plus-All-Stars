@@ -1118,6 +1118,8 @@ Edited for Project+ All-Stars by ilikepizza107
 ##################################################################
 HOOK @ $808E9470
 {
+  stwu r1, -0x80(r1)    # Make a new stack frame big enough to hold everything
+  stmw r3, 0x08(r1)     # Backup r3 to r31 into the new stack frame 
   mr r11, r3		# Store value of r3 to a safe register
   lwz r3, 0x08(r27)	# Set up the registers
   lis r12, 0x8079    	# \
@@ -1141,15 +1143,19 @@ HOOK @ $808E9470
   cmpwi r7, 0x82
   ble- loc_0x1C
   cmpwi r3, 0x2
-  b %END%
+  b end
 
 loc_0x1C:
   cmpwi r3, 0x1
-  b %END%		# Skip to the end
+  b end			# Skip to the end
 
 skip:
   mr r3, r11		# Restore the register
   cmpwi r3, 0x3		# Follow Brawl rules
+
+end:
+lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
+addi r1, r1, 0x80	# Deallocate the new stack frame
 }
 
 #######################
