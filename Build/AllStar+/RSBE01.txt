@@ -1120,7 +1120,6 @@ HOOK @ $808E9470
 {
   stwu r1, -0x80(r1)    # Make a new stack frame big enough to hold everything
   stmw r3, 0x08(r1)     # Backup r3 to r31 into the new stack frame 
-  mr r11, r3		# Store value of r3 to a safe register
   lwz r3, 0x08(r27)	# Set up the registers
   lis r12, 0x8079    	# \
   ori r12, r12, 0x75B0	# | I need you to go to getTeamOwnerID/[soExternalValueAccesser] first
@@ -1136,26 +1135,24 @@ HOOK @ $808E9470
   ori r12, r12, 0x4D55	# /
   cmpw r3, r12		# Check if it's Samus, and if not...
   bne+ skip		# follow Brawl rules
-  mr r3, r11		# Restore the register
+  lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
+  addi r1, r1, 0x80	# Deallocate the new stack frame
   lwz r7, 96(r25)
   lwz r7, 124(r7)
   lhz r7, 6(r7)
   cmpwi r7, 0x82
   ble- loc_0x1C
   cmpwi r3, 0x2
-  b end
+  b %END%
 
 loc_0x1C:
   cmpwi r3, 0x1
-  b end			# Skip to the end
+  b %END%		# Skip to the end
 
 skip:
-  mr r3, r11		# Restore the register
+  lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
+  addi r1, r1, 0x80	# Deallocate the new stack frame
   cmpwi r3, 0x3		# Follow Brawl rules
-
-end:
-lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
-addi r1, r1, 0x80	# Deallocate the new stack frame
 }
 
 #######################
