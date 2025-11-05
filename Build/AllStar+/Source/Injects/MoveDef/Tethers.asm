@@ -205,6 +205,7 @@ CODE @ $80FC2FB8 # 80F9FC20 + 23398
 
 ##########################################
 Disable Tether Canceling [standardtoaster]
+Edited for P+ All-Stars by ilikepizza107
 ##########################################
-* 04FC2C70 00020000
-* 04FC2C78 00020000
+# * 04FC2C70 00020000 # \ Original code
+# * 04FC2C78 00020000 # / 
