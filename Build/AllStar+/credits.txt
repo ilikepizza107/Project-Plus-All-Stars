@@ -291,6 +291,9 @@ Codes removed from Source/Project+/YoshiEggs.asm:
 Codes added to RSBE01.txt:
 DK Cargo Mash Fix [Magus]
 
+Codes edited from RSBE01.txt:
+Tether Limit is 1 for Zair and 2 for others V1.2 [standardtoaster]
+
 Codes edited from Source/Project M/Constants.asm:
 3400 - DK Cargo Hold Base Time
 3401 - DK Cargo Hold Increase per Damage
