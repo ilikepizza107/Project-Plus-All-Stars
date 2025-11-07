@@ -167,6 +167,9 @@ PSA Edited for Lucario Aura Sphere Cancel
 - Sub Routine 0x23E88, Sub Routine 0x23C58
 In vP+, Sub Routine 0x2A08 is listed as 0x7568, Sub Routine 0xCFE0 is listed as 0x7B48, Sub Routine 0xC238 is listed as 0x7A78, Sub Routine 0xD490 is listed as 0x8208, Sub Routine 0x28808 is listed as 0x79E8
 
+PSA Edited for Samus removing tether canceling
+ - Sub Action 0xEC, Main;
+
 ######################
 Module Changes/Credits
 ######################
