@@ -4519,7 +4519,6 @@ loc_0x00A:
 * 66200002 00000000             # Goto: Jump to Next Line, then forward 2 more Line(s) Regardless of Execution Status
 * A1830000 398C0080             # ....9...      | DATA_EMBED (0x10 bytes)
 * B1830000 4E800020             # ....N.. 
-* 44000000 00FFFFFF             # Store Base Address: Val @ $(0x00FFFFFF) = ba
 * 48000000 804E031C             # Load Pointer Offset: po = Val @ $(0x804E031C)
 * 54010000 00000000             # Store Base Address: Val @ $(po + 0x00000000) = ba
 * E0000000 80008000             # Full Terminator: ba = 0x80000000, po = 0x80000000
@@ -4808,3 +4807,7 @@ loc_0x022:
 	xoris r3, r3, 0x8000
 }
 
+####################################
+[CM_Addons] Code Menu Addon Includes
+####################################
+.include "Source/CM_Addons/TETHNJCT/Source.asm"
