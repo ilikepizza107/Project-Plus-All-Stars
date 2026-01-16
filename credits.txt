@@ -306,9 +306,15 @@ Codes removed from Source/Project M/Constants.asm:
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
 
+Codes removed from Source/Injects/MoveDef/Tethers.asm:
+Disable Tether Canceling [standardtoaster]
+
 Codes edited from default values (not gameplay related) - 
 Source/LegacyTE/TagsControls.asm
 Source/Project+/Random.asm
+
+Codes added to the Code Menu:
+Tether Inject v1.0.0 [Quicklava, ilikepizza107]
 
 #########################
 Animation Changes/Credits
