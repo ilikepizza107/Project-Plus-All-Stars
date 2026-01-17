@@ -4,7 +4,7 @@ Project Plus is a wonderful game, and working on this project has helped me see,
 PSA Changes/Credits
 ###################
 
-Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.2 as a base for their movesets.
+Note: Warioman and Giga Bowser were not considered for this project, and thus use P+ v3.1.5 as a base for their movesets.
 
 All PSA Edits by ilikepizza107, with credit to KingJigglypuff and eon for providing general editing guidance
 Unless otherwise stated, all PSAs use the FitFighter.pac and FitFighterMotionEtc.pac from the appropriate PM/P+ version as a base, with the edits noted below being edits to those files.
@@ -21,8 +21,8 @@ All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Bowser, Ganon
 
 All characters, except for Luigi, Samus, Kirby, Jigglypuff, Peach, Ganondorf, Ice Climbers, King Dedede, Squirtle, Olimar, and Knuckles, had various Sub Routine jumps to 0x90XXXXXX addresses removed, as they are no longer needed due to P+ codeset changes
 
-PSA Edited for Mario Pills, Side Special (module edits needed as well)
-- Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
+PSA Edited for Mario Pills, Side Special (module edits needed as well), FSmash fixes
+- Sub Action 0x57, Main; Sub Action 0x57, GFX; Sub Action 0x58, Main; Sub Action 0x58, GFX; Sub Action 0x58, SFX; Sub Action 0x5A, Main; Sub Action 0x5A, GFX; Sub Action 0x1CE, GFX; Sub Action 0x1CE, SFX; Sub Action 0x1CF, GFX; Sub Action 0x1D0, Main; Sub Action 0x1D1, Main;
 - Sub Routine 0x26054, Sub Routine 0x6AD0 (previously 0x26A64), Sub Routine 0x79E0 (previously 0x25D6C)
 - Removed Texture Data [0] [Group 2] from FitMarioMotionEtc.pac
 
@@ -46,10 +46,10 @@ PSA Edited for Toon Link Bomb ItemEX Compatability (module edits needed as well)
 - Misc Tab, Misc Section, "Unknown24" Section
 In vP+, Sub Routine 0xA090 is listed as 0x78A8, Sub Routine 0xA740 is listed as 0x7AB8
 
-PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise, Per-Costume Etc Files, DACUS Slide Extension to 2 frames, Wii SD Card Cover Opening (module edits needed as well)
+PSA Edited for ROB Slot Slot Specific Robo Beams, Wii Buzzer Star KO Noise, Per-Costume Etc Files, DACUS Slide Extension to 2 frames, Wii SD Card Cover Opening (module edits needed as well), Last Boost Indicator
 - Replaced ef_robot, added ef_custom23
 - Action 0x113, Entry (No Event: cleanup, but technically changed)
-- Sub Action 0x0, Main; Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 0x7E, Other; Sub Action 0x7F, Other; Sub Action 0x80, Other; Sub Action 0x81, Other; Sub Action 0x82, Other; Sub Action 0x83, Other; Sub Action 0x84, Other; Sub Action 0x85, Other; Sub Action 0x86, Other; Sub Action 0x87, Other; Sub Action 0x88, Other; Sub Action 0x89, Other; Sub Action 0x8A, Other; Sub Action 0x8B, Other; Sub Action 0x8C, Other; Sub Action 0x8D, Other; Sub Action 0x8E, Other; Sub Action 0x8F, Other; Sub Action 0x90, Other; Sub Action 0x91, Other; Sub Action 0x92, Other; Sub Action 0x93, Other; Sub Action 0x94, Other; Sub Action 0x95, Other; Sub Action 0x98, Other; Sub Action 0x99, Other; Sub Action 0x9A, Other; Sub Action 0x9B, Other; Sub Action 0x9C, Other; Sub Action 0x9D, Other; Sub Action 0x9E, Other; Sub Action 0x9F, Other; Sub Action 0xA0, Other; Sub Action 0xA1, Other; Sub Action 0xA2, Other; Sub Action 0xA3, Other; Sub Action 0xA4, Other; Sub Action 0xA5, Other; Sub Action 0xA6, Other; Sub Action 0xA7, Other; Sub Action 0xA8, Other; Sub Action 0xA9, Other; Sub Action 0xAB, Other; Sub Action 0xAC, Other; Sub Action 0xAD, Other; Sub Action 0xB4, Other; Sub Action 0xB5, Other; Sub Action 0xC5, Other; Sub Action 0xF5, Other; Sub Action 0xF6, Other; Sub Action 0x1C2, Main; Sub Action 0x1C3, Main; Sub Action 0x1C4, Main; Sub Action 0x1C6, Main; Sub Action 0x1C8, Main; Sub Action 0x1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D1, GFX; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
+- Sub Action 0x0, Main; Sub Action 0x4E, Main; Sub Action 0x5C, Main; Sub Action 0x58, GFX; Sub Action 0x65, GFX; Sub Action 0x7E, Other; Sub Action 0x7F, Other; Sub Action 0x80, Other; Sub Action 0x81, Other; Sub Action 0x82, Other; Sub Action 0x83, Other; Sub Action 0x84, Other; Sub Action 0x85, Other; Sub Action 0x86, Other; Sub Action 0x87, Other; Sub Action 0x88, Other; Sub Action 0x89, Other; Sub Action 0x8A, Other; Sub Action 0x8B, Other; Sub Action 0x8C, Other; Sub Action 0x8D, Other; Sub Action 0x8E, Other; Sub Action 0x8F, Other; Sub Action 0x90, Other; Sub Action 0x91, Other; Sub Action 0x92, Other; Sub Action 0x93, Other; Sub Action 0x94, Other; Sub Action 0x95, Other; Sub Action 0x98, Other; Sub Action 0x99, Other; Sub Action 0x9A, Other; Sub Action 0x9B, Other; Sub Action 0x9C, Other; Sub Action 0x9D, Other; Sub Action 0x9E, Other; Sub Action 0x9F, Other; Sub Action 0xA0, Other; Sub Action 0xA1, Other; Sub Action 0xA2, Other; Sub Action 0xA3, Other; Sub Action 0xA4, Other; Sub Action 0xA5, Other; Sub Action 0xA6, Other; Sub Action 0xA7, Other; Sub Action 0xA8, Other; Sub Action 0xA9, Other; Sub Action 0xAB, Other; Sub Action 0xAC, Other; Sub Action 0xAD, Other; Sub Action 0xB4, Other; Sub Action 0xB5, Other; Sub Action 0xC5, Other; Sub Action 0xF5, Other; Sub Action 0xF6, Other; Sub Action 0x1C2, Main; Sub Action 0x1C3, Main; Sub Action 0x1C4, Main; Sub Action 0x1C6, Main; Sub Action 0x1C8, Main; Sub Action 0x1CA, Main; Sub Action 0x1CE, Main; Sub Action 0x1CE, GFX; Sub Action 0x1CF, Main; Sub Action 0x1D0, SFX; Sub Action 0x1D1, GFX; Sub Action 0x1D2, Other; Sub Action 0x1D3, Other; Sub Action 0x1D4, GFX; Sub Action 0x1D4, Other; Sub Action 0x1E6, Main; Sub Action 0x1E6, GFX 
 - Article 1, Sub Action 0x0, GFX; Article 1, Sub Action 0x1, GFX; Article 3, Sub Action 0x0, GFX; Article 3, Sub Action 0x1, GFX; Article 3, Sub Action 0x2, GFX; Article 3, Sub Action 0x3, GFX
 - Override 0xBD, Entry
 - Added statusAnimCmd_Dead External Sub Routine
@@ -142,7 +142,7 @@ In vP+, Sub Routine 0x332EC is listed as 0x4B40, Sub Routine 0x2E124 is listed a
 
 PSA Edited for Diddy Kong Team Glow Compatibility Fix, Juggle Ball Changes
 - Edited ef_diddy
-- Sub Action 0x1BC, Main; SUb Routine 0x1BC, GFX; 
+- Sub Action 0x1BC, Main; Sub Routine 0x1BC, GFX; 
 In vP+ Sub Routine 0x11200 is listed as 0x7638, Sub Routine 0x128B0 is listed as 0xC970, Sub Routine 0x11490 is listed as 0x111D0, Sub Routine 0x12C68 is listed as 0x124B0 
 
 PSA Edited for Snake Knife Sword Glow, Crawl SFX Fix
@@ -166,6 +166,9 @@ PSA Edited for Lucario Aura Sphere Cancel
 - Sub Action 0x48, GFX; Sub Action 0x49, GFX; Sub Action 0x4A, GFX; Sub Action 0x4E, GFX; Sub Action 0x4F, GFX; Sub Action 0x50, GFX; Sub Action 0x53, GFX; Sub Action 0x54, SFX; Sub Action 0x55, GFX; Sub Action 0x58, GFX; Sub Action 0x5D, GFX; Sub Action 0x60, GFX; Sub Action 0x62, GFX; Sub Action 0x63, GFX; Sub Action 0x64, GFX; Sub Action 0x65, GFX; Sub Action 0x66, GFX; 
 - Sub Routine 0x23E88, Sub Routine 0x23C58
 In vP+, Sub Routine 0x2A08 is listed as 0x7568, Sub Routine 0xCFE0 is listed as 0x7B48, Sub Routine 0xC238 is listed as 0x7A78, Sub Routine 0xD490 is listed as 0x8208, Sub Routine 0x28808 is listed as 0x79E8
+
+PSA Edited for Samus removing tether canceling
+ - Sub Action 0xEC, Main;
 
 ######################
 Module Changes/Credits
@@ -291,6 +294,9 @@ Codes removed from Source/Project+/YoshiEggs.asm:
 Codes added to RSBE01.txt:
 DK Cargo Mash Fix [Magus]
 
+Codes edited from RSBE01.txt:
+Tether Limit is 1 for Zair and 2 for others V1.2 [standardtoaster]
+
 Codes edited from Source/Project M/Constants.asm:
 3400 - DK Cargo Hold Base Time
 3401 - DK Cargo Hold Increase per Damage
@@ -300,9 +306,15 @@ Codes removed from Source/Project M/Constants.asm:
 Zard Has 1 Jab [ds22]
 Zard ThrownType is 2 [ds22]
 
-Codes edited from default values - 
+Codes removed from Source/Injects/MoveDef/Tethers.asm:
+Disable Tether Canceling [standardtoaster]
+
+Codes edited from default values (not gameplay related) - 
 Source/LegacyTE/TagsControls.asm
 Source/Project+/Random.asm
+
+Codes added to the Code Menu:
+Tether Inject v1.0.0 [Quicklava, ilikepizza107]
 
 #########################
 Animation Changes/Credits
@@ -314,6 +326,8 @@ Diddy Kong Win2 Wait Blink Fix ported by ilikepizza107 (Edited Win2Wait's SRT0, 
 Pikachu Lightbulb Effects ported by ilikepizza107 (added VIZ0s to AppealHi, AttackAirF, AttackAirLw, AttackLw4, AttackLw4Hold, AttackLw4Start, AttackS4Hold, AttackS4S, AttackS4Start, CatchAttack, LandingAirLw, SpecialAirHiEnd, SpecialAirHiStart, SpecialAirLw, SpecialAirLwHit, SpecialAirN, SpecialAirSEnd, SpecialAirSHold, SpecialAirSReady, SpecialAirSStart, SpecialHiEnd, SpecialHiStart, SpecialLw, SpecialLwHit, SpecialN, SpecialS, SpecialSEnd, SpecialSHold, SpecialSReady, SpecialSStart, ThrowF)
 
 Pikachu Iron Tail Effects ported by ilikepizza107 (added VIZ0s to AttackHi4, AttackHi4Hold)
+
+Judge GnW VIS0 Fix ported by Layell (added VIZ0s to SpecialAirHi, SpecialHi, ThrowB, ThrowF, ThrowHi, ThrowLw, AttackLw4, AttackLw4Hold, AttackLw4Start, LadderUp, LadderWait, CliffJumpSlow1, CliffJumpSlow2, CliffJumpQuick1, CliffJumpQuick2, SwimRise, LightThrowHi, LightThrowAirHi, HeavyThrowHi, Passive, PassiveCeil, PassiveStandB, PassiveStandF, ItemDragoonGet, ItemDragoonRide, Entry)
 
 ##############
 Special Thanks

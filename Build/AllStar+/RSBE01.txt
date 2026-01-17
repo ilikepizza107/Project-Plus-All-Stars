@@ -1114,9 +1114,29 @@ end:
 
 ##################################################################
 Tether Limit is 1 for Zair and 2 for others V1.2 [standardtoaster]
+Edited for Project+ All-Stars by ilikepizza107
 ##################################################################
 HOOK @ $808E9470
 {
+  stwu r1, -0x80(r1)    # Make a new stack frame big enough to hold everything
+  stmw r3, 0x08(r1)     # Backup r3 to r31 into the new stack frame 
+  lwz r3, 0x08(r27)	# Set up the registers
+  lis r12, 0x8079    	# \
+  ori r12, r12, 0x75B0	# | I need you to go to getTeamOwnerID/[soExternalValueAccesser] first
+  mtctr r12		# |
+  bctrl			# /
+  lis r12, 0x8002    	# \
+  ori r12, r12, 0xDC40	# | Now go to getTask/[gfTask]
+  mtctr r12		# |
+  bctrl			# /
+  lwz r12, 0(r3)	# Get the value of the pointer
+  lwz r3, 0(r12)	# Throw that into r3 again
+  lis r12, 0x5341	# \ Load up "SAMU" string to compare r3 against
+  ori r12, r12, 0x4D55	# /
+  cmpw r3, r12		# Check if it's Samus, and if not...
+  bne+ skip		# follow Brawl rules
+  lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
+  addi r1, r1, 0x80	# Deallocate the new stack frame
   lwz r7, 96(r25)
   lwz r7, 124(r7)
   lhz r7, 6(r7)
@@ -1127,6 +1147,12 @@ HOOK @ $808E9470
 
 loc_0x1C:
   cmpwi r3, 0x1
+  b %END%		# Skip to the end
+
+skip:
+  lmw r3, 0x08(r1)	# Restore r3 to r31 from the backed up values
+  addi r1, r1, 0x80	# Deallocate the new stack frame
+  cmpwi r3, 0x3		# Follow Brawl rules
 }
 
 #######################
